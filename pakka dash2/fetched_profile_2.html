@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Role Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+<div class="rp-container">
+
+<div class="rp-title">
+Role Profile — PAPER SALES HEAD</div>
+
+
+<form method="POST">
+
+<table class="rp-table" id="roleTable">
+
+<tr>
+<td class="label">Mission</td>
+<td colspan="5"><textarea name="mission">Responsible for growth of turnover, profitability and cash availability for the Company through creating deep customer bonds and service delight</textarea></td>
+</tr>
+
+<tr>
+<td class="label">Key Outcomes</td>
+<td colspan="5">
+<input type="text" name="outcomes[]" value="Deliver annual domestic and export sales targets to contribute ≥  Cr revenue with ≥ % EBITDA margin.">
+<input type="text" name="outcomes[]" value="Expand customer base by ≥ 15% while improving customer retention rate to ≥ 80%.">
+<input type="text" name="outcomes[]" value="Increase share of sustainable/innovative paper products in the sales portfolio.">
+<input type="text" name="outcomes[]" value="Enhance distributor/channel performance .">
+<input type="text" name="outcomes[]" value="Build Pakka’s reputation as a preferred partner for paper solutions (NPS ≥ 90%)">
+</td>
+</tr>
+
+<tr class="header-row">
+<th>SN</th>
+<th>Attribute</th>
+<th>Technical Skills</th>
+<th>Assessment</th>
+<th>Weightage</th>
+<th>Individual Weightage</th>
+</tr>
+
+<tr class="data-row" data-row="1">
+
+<td rowspan="3">1</td>
+<td rowspan="3"><textarea name="attribute[1]">Sales & Revenue Growth</textarea></td>
+
+<td><textarea name="tech[1][]">Expand exports and domestic sales simultaneously</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[1]">% of annual sales target achieved</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="1" name="attr_weight[1]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Achieves annual revenue targets ≥ ₹ 341 Cr.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Consistent achievement and  strategic growth</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+<td rowspan="3">2</td>
+<td rowspan="3"><textarea name="attribute[2]">Profitability Achievement</textarea></td>
+
+<td><textarea name="tech[2][]">Ensure profitability with EBITDA margin ≥ 15%.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[2]">Profit growth YoY (%)</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="2" name="attr_weight[2]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Ability to consistently maximize sales of higher profit products</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Ability to negotiate for high profitability</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+<td rowspan="3">3</td>
+<td rowspan="3"><textarea name="attribute[3]">Nurturing Customer relationships </textarea></td>
+
+<td><textarea name="tech[3][]">Develop partnership bond with strategic customers Expand customer base by ≥12%.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[3]">NPS > 90%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="3" name="attr_weight[3]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Ability to be partner of choice and increase in market share</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Maintains ≥90% customer retention rate</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+<td rowspan="3">4</td>
+<td rowspan="3"><textarea name="attribute[4]">Channel & Distributor Management</textarea></td>
+
+<td><textarea name="tech[4][]">Improve distributor profit/ volume</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[4]">YoY growth in channel sales</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="4" name="attr_weight[4]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Develops transparent channel engagement practices</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Channel & Distributor expansion</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+<td rowspan="3">5</td>
+<td rowspan="3"><textarea name="attribute[5]">Data-Driven Sales Management</textarea></td>
+
+<td><textarea name="tech[5][]">Enhances pipeline visibility and forecasting accuracy.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[5]">Number of dashboards/reports used effectively</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="5" name="attr_weight[5]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Ability to take key decisions supported through data</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Implement CRM with predictive analytics.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+<td rowspan="3">6</td>
+<td rowspan="3"><textarea name="attribute[6]">Understanding Market trends and Competitive landscape</textarea></td>
+
+<td><textarea name="tech[6][]">Ability to make forecast and trend presentations</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[6]">% variance between forecasted vs actual trends</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="6" name="attr_weight[6]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Ability to make data presentation of the competitive market trends</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Ability to forecast external and internal factors which contributes to sales</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+<td rowspan="3">7</td>
+<td rowspan="3"><textarea name="attribute[7]">New Product Research</textarea></td>
+
+<td><textarea name="tech[7][]">Consistent market feedback</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[7]">No. of new product ideas piloted</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="7" name="attr_weight[7]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Ability to contribute in product updating with development teams</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Ability to identify new market trend and sales patterns</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+<td rowspan="3">8</td>
+<td rowspan="3"><textarea name="attribute[8]">Solution Selling & Value Creation</textarea></td>
+
+<td><textarea name="tech[8][]">Transitions from product-selling to consultative, solution-based sales.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[8]">NPS ≥ 75</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="8" name="attr_weight[8]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Positions Pakka as a partner in sustainability.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Maximizes customer lifetime value.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+<td rowspan="3">9</td>
+<td rowspan="3"><textarea name="attribute[9]">Understanding usages and conversion processes</textarea></td>
+
+<td><textarea name="tech[9][]">Clear understanding of customers' use</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[9]">% Application of knowledge</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="9" name="attr_weight[9]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Clear understanding of convertors' process and intricacies involved</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Ability to analyse/observe the conversion process and guide for optimal usage</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+
+<!-- TOTAL ROW -->
+<tr style="background:#f5f5f5;font-weight:bold;">
+<td colspan="4" align="right">TOTAL</td>
+<td id="totalAttr">0</td>
+<td id="totalTech">0</td>
+</tr>
+
+</table>
+
+
+<button id="saveBtn" class="rp-btn" type="submit" name="save">Save</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- footer.php -->
+
+<script src="footer.js"></script>
+
+</body>
+</html>
+<script>
+function calc(){
+
+    let totalAttr = 0;
+    let totalTech = 0;
+    let valid = true;
+
+    document.querySelectorAll('.data-row').forEach(r=>{
+        r.classList.remove('error-row');
+    });
+
+    document.querySelectorAll('.attr-weight').forEach(attr => {
+
+        let row = attr.dataset.row;
+        let attrVal = parseFloat(attr.value) || 0;
+
+        totalAttr += attrVal;
+
+        let techSum = 0;
+
+        document.querySelectorAll(`.tech-weight[data-row='${row}']`)
+        .forEach(t=>{
+            let v = parseFloat(t.value) || 0;
+            techSum += v;
+            totalTech += v;
+        });
+
+        if(techSum !== attrVal || attrVal === 0){
+            valid = false;
+
+            document.querySelectorAll(`.data-row[data-row='${row}']`)
+            .forEach(r=> r.style.background = "#ffe6e6");
+        }
+    });
+
+    document.getElementById('totalAttr').innerText = totalAttr;
+    document.getElementById('totalTech').innerText = totalTech;
+
+    if(totalAttr !== 100 || totalTech !== 100){
+        valid = false;
+    }
+
+    document.getElementById('saveBtn').disabled = !valid;
+}
+
+document.querySelectorAll('input').forEach(el=>{
+    el.addEventListener('input', calc);
+});
+
+calc();
+
+if (rowTotal === attrWeight) {
+    row.classList.remove("invalid-weight");
+    row.classList.add("valid-weight");
+} else {
+    row.classList.remove("valid-weight");
+    row.classList.add("invalid-weight");
+}
+</script>
+<script>
+document.querySelectorAll("textarea").forEach(el => {
+    function autoResize() {
+        el.style.height = "auto";
+        el.style.height = el.scrollHeight + "px";
+    }
+
+    el.addEventListener("input", autoResize);
+    autoResize(); // run on load
+});
+</script>
+
+</body>
+</html>

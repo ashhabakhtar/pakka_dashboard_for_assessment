@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Role Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+<div class="rp-container">
+
+<div class="rp-title">
+Role Profile — PLANT HEAD</div>
+
+
+<form method="POST">
+
+<table class="rp-table" id="roleTable">
+
+<tr>
+<td class="label">Mission</td>
+<td colspan="5"><textarea name="mission">Establish Systems for sustainable improvement across Operations to achieve best in class performance.</textarea></td>
+</tr>
+
+<tr>
+<td class="label">Key Outcomes</td>
+<td colspan="5">
+<input type="text" name="outcomes[]" value="Achieve ≥ 85% Overall Equipment Effectiveness (OEE)  in Paper machines and > 70% in Food Service production lines">
+<input type="text" name="outcomes[]" value="Maintain quality excellence (customer complaints ≤ 0.5% of total sale Qty) .">
+<input type="text" name="outcomes[]" value="Ensure zero major safety incidents; maintain LTIFR at world-class benchmark levels.">
+<input type="text" name="outcomes[]" value="Enable sustainable manufacturing with ≥ 5% reduction in water/energy footprint by 2027 in similar Products. ">
+<input type="text" name="outcomes[]" value="Develop a high-performance plant culture, Improvement in Productivity per person ratio by 5% YOY. ">
+</td>
+</tr>
+
+<tr class="header-row">
+<th>SN</th>
+<th>Attribute</th>
+<th>Technical Skills</th>
+<th>Assessment</th>
+<th>Weightage</th>
+<th>Individual Weightage</th>
+</tr>
+
+<tr class="data-row" data-row="1">
+
+<td rowspan="3">1</td>
+<td rowspan="3"><textarea name="attribute[1]">Manufacturing Excellence</textarea></td>
+
+<td><textarea name="tech[1][]">Reduce downtime through predictive maintenance.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[1]">OEE ≥ 85%( Wrap and Carry), ≥ 70% Food Service</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="1" name="attr_weight[1]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Ensure continuous process optimization.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Achieve world-class production efficiency with OEE ≥ 85%.( Wrap and Carry) </textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+<td rowspan="3">2</td>
+<td rowspan="3"><textarea name="attribute[2]">Quality Assurance</textarea></td>
+
+<td><textarea name="tech[2][]">Implement zero-defect manufacturing systems.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[2]">Customer Complaints ≤ 0.5% of Total Sale Qty</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="2" name="attr_weight[2]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Conduct rigorous QA audits and root-cause analysis.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Drive (external/ internal) supplier quality improvement initiatives.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+<td rowspan="3">3</td>
+<td rowspan="3"><textarea name="attribute[3]">Safety & EHS Compliance</textarea></td>
+
+<td><textarea name="tech[3][]">Maintain zero-fatality, zero-major accident culture.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[3]">LTIFR = Pulp and Paper Industry benchmark</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="3" name="attr_weight[3]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Implement global EHS standards across plant operations.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Engage employees in continuous safety training.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+<td rowspan="3">4</td>
+<td rowspan="3"><textarea name="attribute[4]">Resource Planning and cost efficiency</textarea></td>
+
+<td><textarea name="tech[4][]">Optimize energy, people, and raw material costs.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[4]">Variable Cost < YOY Target</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="4" name="attr_weight[4]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Implement Lean/Six Sigma/ kaizen to reduce wastage.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Achieve ≥2% YoY productivity gain without major Capex</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+<td rowspan="3">5</td>
+<td rowspan="3"><textarea name="attribute[5]">Innovation & Technology Adoption</textarea></td>
+
+<td><textarea name="tech[5][]">Pilot new process technologies for efficiency.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[5]">Tech Adoption Projects ≥ 5/yr</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="5" name="attr_weight[5]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Enhance speed-to-market with flexible lines.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Introduce automation and AI-led manufacturing.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+<td rowspan="3">6</td>
+<td rowspan="3"><textarea name="attribute[6]">Sustainability & Green Operations</textarea></td>
+
+<td><textarea name="tech[6][]">Reduce energy and water consumption per ton of paper.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[6]">Sustainability KPI ≥ 30%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="6" name="attr_weight[6]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Implement circular economy practices.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Targets 30% carbon footprint reduction by 2027.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+<td rowspan="3">7</td>
+<td rowspan="3"><textarea name="attribute[7]">Stake holder relationships</textarea></td>
+
+<td><textarea name="tech[7][]">Creates effective vendor relationships based on enhanced performance</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[7]">NPS Key Stake Holders>50</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="7" name="attr_weight[7]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Develops strong local society connect to enable bonhomie and mutual growth</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Strong industry peer relationships to enable exchange and growth</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+<td rowspan="3">8</td>
+<td rowspan="3"><textarea name="attribute[8]">People Capability</textarea></td>
+
+<td><textarea name="tech[8][]">Upskill plant teams in digital operations and safety.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[8]">Productivity per Person ≥ 5% YoY</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="8" name="attr_weight[8]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Ensure training gaps are minimized with best in class industrial training</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Improve people productivity through engagement.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+<td rowspan="3">9</td>
+<td rowspan="3"><textarea name="attribute[9]">Effectiveness in building team</textarea></td>
+
+<td><textarea name="tech[9][]">Understand organisation structuring and identification of gaps</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[9]">NPS Internal >50</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="9" name="attr_weight[9]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Ability to identify and develop talent</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Ability to build leadership and redundancy within system</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="4"></td>
+
+</tr>
+
+<!-- TOTAL ROW -->
+<tr style="background:#f5f5f5;font-weight:bold;">
+<td colspan="4" align="right">TOTAL</td>
+<td id="totalAttr">0</td>
+<td id="totalTech">0</td>
+</tr>
+
+</table>
+
+
+<button id="saveBtn" class="rp-btn" type="submit" name="save">Save</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- footer.php -->
+
+<script src="footer.js"></script>
+
+</body>
+</html>
+<script>
+function calc(){
+
+    let totalAttr = 0;
+    let totalTech = 0;
+    let valid = true;
+
+    document.querySelectorAll('.data-row').forEach(r=>{
+        r.classList.remove('error-row');
+    });
+
+    document.querySelectorAll('.attr-weight').forEach(attr => {
+
+        let row = attr.dataset.row;
+        let attrVal = parseFloat(attr.value) || 0;
+
+        totalAttr += attrVal;
+
+        let techSum = 0;
+
+        document.querySelectorAll(`.tech-weight[data-row='${row}']`)
+        .forEach(t=>{
+            let v = parseFloat(t.value) || 0;
+            techSum += v;
+            totalTech += v;
+        });
+
+        if(techSum !== attrVal || attrVal === 0){
+            valid = false;
+
+            document.querySelectorAll(`.data-row[data-row='${row}']`)
+            .forEach(r=> r.style.background = "#ffe6e6");
+        }
+    });
+
+    document.getElementById('totalAttr').innerText = totalAttr;
+    document.getElementById('totalTech').innerText = totalTech;
+
+    if(totalAttr !== 100 || totalTech !== 100){
+        valid = false;
+    }
+
+    document.getElementById('saveBtn').disabled = !valid;
+}
+
+document.querySelectorAll('input').forEach(el=>{
+    el.addEventListener('input', calc);
+});
+
+calc();
+
+if (rowTotal === attrWeight) {
+    row.classList.remove("invalid-weight");
+    row.classList.add("valid-weight");
+} else {
+    row.classList.remove("valid-weight");
+    row.classList.add("invalid-weight");
+}
+</script>
+<script>
+document.querySelectorAll("textarea").forEach(el => {
+    function autoResize() {
+        el.style.height = "auto";
+        el.style.height = el.scrollHeight + "px";
+    }
+
+    el.addEventListener("input", autoResize);
+    autoResize(); // run on load
+});
+</script>
+
+</body>
+</html>

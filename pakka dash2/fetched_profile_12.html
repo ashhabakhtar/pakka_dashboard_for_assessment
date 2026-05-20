@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Role Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+<div class="rp-container">
+
+<div class="rp-title">
+Role Profile — FOOD SERVICES LEAD</div>
+
+
+<form method="POST">
+
+<table class="rp-table" id="roleTable">
+
+<tr>
+<td class="label">Mission</td>
+<td colspan="5"><textarea name="mission">Transform food services disposables in India by gaining 10% market share</textarea></td>
+</tr>
+
+<tr>
+<td class="label">Key Outcomes</td>
+<td colspan="5">
+<input type="text" name="outcomes[]" value="Revenue >800 Cr PBT >150 Cr">
+<input type="text" name="outcomes[]" value="Food service business establish  >50,000 TPY">
+<input type="text" name="outcomes[]" value="Complete range of solutions build for QSR needs">
+<input type="text" name="outcomes[]" value="Build end to end regenerative partnership solutions by onboarding all major institutional caterers">
+<input type="text" name="outcomes[]" value="Strengthen supply chain by building long term gainful partnerships with all vendors">
+</td>
+</tr>
+
+<tr class="header-row">
+<th>SN</th>
+<th>Attribute</th>
+<th>Technical Skills</th>
+<th>Assessment</th>
+<th>Weightage</th>
+<th>Individual Weightage</th>
+</tr>
+
+<tr class="data-row" data-row="1">
+
+<td rowspan="3">1</td>
+<td rowspan="3"><textarea name="attribute[1]">Brand positioning and marketing</textarea></td>
+
+<td><textarea name="tech[1][]">Positioning for creating pull from desired customers</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[1]">Achieve min 95% of sales targets</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="1" name="attr_weight[1]" value="8"></td>
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Creating and monitoring campaigns for efficacy</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Clarity on finding niches and positioning</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+<td rowspan="3">2</td>
+<td rowspan="3"><textarea name="attribute[2]">Customer needs and product offerings</textarea></td>
+
+<td><textarea name="tech[2][]">Deep understanding for market and customer needs- latent and expressed</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[2]">Keep a strong product pipeline. NPS >20%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="2" name="attr_weight[2]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Effective and timely development and optimisation of products</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Ability to create value for customers with unique solutions</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+<td rowspan="3">3</td>
+<td rowspan="3"><textarea name="attribute[3]">Deep customer relationships and service efficacy</textarea></td>
+
+<td><textarea name="tech[3][]">Clear identification of markets and key accounts</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[3]">OTD >95% and customer NPS > 30%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="3" name="attr_weight[3]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Development of exclusivity and bonds with top 25 customers</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Efficacy in understanding user needs and upgrading products and services to customer</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+<td rowspan="3">4</td>
+<td rowspan="3"><textarea name="attribute[4]">Clear industry understanding and stakeholder relationships</textarea></td>
+
+<td><textarea name="tech[4][]">Participation and knowledge through industry and cross industry forums</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[4]">Channel Partner performance >90% achievement of targets</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="4" name="attr_weight[4]" value="7"></td>
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Thought leadership, dissemination of information internally and externally</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Global relationships in industry and collaboration opportunities</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+<td rowspan="3">5</td>
+<td rowspan="3"><textarea name="attribute[5]">Effective team development</textarea></td>
+
+<td><textarea name="tech[5][]">Building of strong performance systems</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[5]">Team NPS >30%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="5" name="attr_weight[5]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Building a culture of transparency and enhancing human potential</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Efficacy in organisation structure, role clarity and hiring processes</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+<td rowspan="3">6</td>
+<td rowspan="3"><textarea name="attribute[6]">Build distribution efficacy</textarea></td>
+
+<td><textarea name="tech[6][]">Deep understanding of distribution systems</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[6]">Product availability at zipcodes:> 90% of plan</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="6" name="attr_weight[6]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Ability to identify partners and build long term relationships</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Ability to disrupt systems to maximise customer benefit</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+<td rowspan="3">7</td>
+<td rowspan="3"><textarea name="attribute[7]">Technology excellence</textarea></td>
+
+<td><textarea name="tech[7][]">Ability to identify tools and ensure their deployment to enable data led decision making.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[7]">Cost efficiency and customer NPS > 30%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="7" name="attr_weight[7]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Affinity towards IT systems and ability to identify and adopt as per need</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Be able to create required analytics for forecasting and providing value to customer.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+<td rowspan="3">8</td>
+<td rowspan="3"><textarea name="attribute[8]">Long term building of supply chain and deepening vendor relationship</textarea></td>
+
+<td><textarea name="tech[8][]">Ability to build strong audits and QA systems</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[8]">Robustness in supply chain; >95% OTD</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="8" name="attr_weight[8]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Strength in building supply chains and exclusive tie ups for required products.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Deep bonds and relationships with vendors and long term tie-ups</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+<td rowspan="3">9</td>
+<td rowspan="3"><textarea name="attribute[9]">Effective Financial Management</textarea></td>
+
+<td><textarea name="tech[9][]">Ability to build effective projections and build goals</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[9]">Consistently (10/12 months min) meeting the budget at positive variance</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="9" name="attr_weight[9]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Ability to monitor financial performance</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Strength in data led decision making</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+
+<!-- TOTAL ROW -->
+<tr style="background:#f5f5f5;font-weight:bold;">
+<td colspan="4" align="right">TOTAL</td>
+<td id="totalAttr">0</td>
+<td id="totalTech">0</td>
+</tr>
+
+</table>
+
+
+<button id="saveBtn" class="rp-btn" type="submit" name="save">Save</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- footer.php -->
+
+<script src="footer.js"></script>
+
+</body>
+</html>
+<script>
+function calc(){
+
+    let totalAttr = 0;
+    let totalTech = 0;
+    let valid = true;
+
+    document.querySelectorAll('.data-row').forEach(r=>{
+        r.classList.remove('error-row');
+    });
+
+    document.querySelectorAll('.attr-weight').forEach(attr => {
+
+        let row = attr.dataset.row;
+        let attrVal = parseFloat(attr.value) || 0;
+
+        totalAttr += attrVal;
+
+        let techSum = 0;
+
+        document.querySelectorAll(`.tech-weight[data-row='${row}']`)
+        .forEach(t=>{
+            let v = parseFloat(t.value) || 0;
+            techSum += v;
+            totalTech += v;
+        });
+
+        if(techSum !== attrVal || attrVal === 0){
+            valid = false;
+
+            document.querySelectorAll(`.data-row[data-row='${row}']`)
+            .forEach(r=> r.style.background = "#ffe6e6");
+        }
+    });
+
+    document.getElementById('totalAttr').innerText = totalAttr;
+    document.getElementById('totalTech').innerText = totalTech;
+
+    if(totalAttr !== 100 || totalTech !== 100){
+        valid = false;
+    }
+
+    document.getElementById('saveBtn').disabled = !valid;
+}
+
+document.querySelectorAll('input').forEach(el=>{
+    el.addEventListener('input', calc);
+});
+
+calc();
+
+if (rowTotal === attrWeight) {
+    row.classList.remove("invalid-weight");
+    row.classList.add("valid-weight");
+} else {
+    row.classList.remove("valid-weight");
+    row.classList.add("invalid-weight");
+}
+</script>
+<script>
+document.querySelectorAll("textarea").forEach(el => {
+    function autoResize() {
+        el.style.height = "auto";
+        el.style.height = el.scrollHeight + "px";
+    }
+
+    el.addEventListener("input", autoResize);
+    autoResize(); // run on load
+});
+</script>
+
+</body>
+</html>

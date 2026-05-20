@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Role Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+<div class="rp-container">
+
+<div class="rp-title">
+Role Profile — COMMERCIAL HEAD</div>
+
+
+<form method="POST">
+
+<table class="rp-table" id="roleTable">
+
+<tr>
+<td class="label">Mission</td>
+<td colspan="5"><textarea name="mission">To ensure cost-effective, timely, and quality procurement by securing long-term raw material partnerships, optimizing supplier networks, and driving strategic sourcing to support efficient production and sustainable growth.</textarea></td>
+</tr>
+
+<tr>
+<td class="label">Key Outcomes</td>
+<td colspan="5">
+<input type="text" name="outcomes[]" value="Ensure 3.5 Lakh in Ayodhya TPY in RM & MIN 3.5 Lakh in 1 new site">
+<input type="text" name="outcomes[]" value="Built fuel supply chain for min 2 sites for complete captive solutions">
+<input type="text" name="outcomes[]" value="Ensure circularity & value creation from all co products">
+<input type="text" name="outcomes[]" value="Absolute automation centralisation of store to enable AI 50% deduction in Inventory">
+<input type="text" name="outcomes[]" value="Complete system led transparency & consistency leading to preference">
+</td>
+</tr>
+
+<tr class="header-row">
+<th>SN</th>
+<th>Attribute</th>
+<th>Technical Skills</th>
+<th>Assessment</th>
+<th>Weightage</th>
+<th>Individual Weightage</th>
+</tr>
+
+<tr class="data-row" data-row="1">
+
+<td rowspan="3">1</td>
+<td rowspan="3"><textarea name="attribute[1]">Strong long term vendor relationship</textarea></td>
+
+<td><textarea name="tech[1][]">Ability to ensure creation of competition for optimizing of prices</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[1]">% Vendor Retention Rate</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="1" name="attr_weight[1]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Ability to ensure regular meeting with key vendors and been present on occasion of value to key vendors</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Ability to ensure creation of long term mutually beneficial relationship</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+<td rowspan="3">2</td>
+<td rowspan="3"><textarea name="attribute[2]">Deep know how of Global supply & demand scenario</textarea></td>
+
+<td><textarea name="tech[2][]">Strong ability to analyse and interpret global supply-demand dynamics</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[2]">% Application of Knowledge</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="2" name="attr_weight[2]" value="5"></td>
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="1.5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Commodity trend tracking from Pakka perspective</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="1.5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Proficient in applying supply demand insights in pricing, procurements</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+<td rowspan="3">3</td>
+<td rowspan="3"><textarea name="attribute[3]">Quality Awareness</textarea></td>
+
+<td><textarea name="tech[3][]">Ability identify and set quality check parameters for incoming materials</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[3]"># of audits passed/quality issues prevented</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="3" name="attr_weight[3]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Understanding of malpractices during supply</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Ability to ensure the quality of stored material (Fibre/Fuel/Other materials) by adoption of best available storage methods</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+<td rowspan="3">4</td>
+<td rowspan="3"><textarea name="attribute[4]">Deep know how of digital transformation</textarea></td>
+
+<td><textarea name="tech[4][]">Ability to identify technology requirements and knowledge on interface with operations</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[4]"># of relevant innovations/processes adapted per year</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="4" name="attr_weight[4]" value="5"></td>
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="1.5"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Understanding of cross industry trends and have the ability to adapt them to business</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="1.5"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Able to understand IT modules and it's support to functions</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+<td rowspan="3">5</td>
+<td rowspan="3"><textarea name="attribute[5]">Efficacy in Negotiation</textarea></td>
+
+<td><textarea name="tech[5][]">Staying calm under pressure, reading non-verbal cues and adapting to situations</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[5]">Agreement rate (% of negotiations closed)</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="5" name="attr_weight[5]" value="20"></td>
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="7"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Focused on identifying creative solutions that satisfy all the involved parties</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="7"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Skilled in assessing facts, data, and trade-off to create win win outcomes and guide discussions towards agreement</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+<td rowspan="3">6</td>
+<td rowspan="3"><textarea name="attribute[6]">Efficacy in Contract building</textarea></td>
+
+<td><textarea name="tech[6][]">Ability to write and read contracts</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[6]"># of contracts drafted/reviewed per year</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="6" name="attr_weight[6]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Ensuring statutory compliance</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Detailed costing understanding</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="7"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+<td rowspan="3">7</td>
+<td rowspan="3"><textarea name="attribute[7]">Ability to research  & identify opportunities for business development</textarea></td>
+
+<td><textarea name="tech[7][]">Ability to  use research, analytics and insights to evaluate potential opportunities</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[7]"># of qualified new opportunities identified/year</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="7" name="attr_weight[7]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Evaluating feasibility, potential ROI and risks before pursuing opportunities</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Translating research findings into actionable business development strategies</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+<td rowspan="3">8</td>
+<td rowspan="3"><textarea name="attribute[8]">Efficacy with Financial and Business analytics</textarea></td>
+
+<td><textarea name="tech[8][]">Ability to understand and analyse all the financial metrics</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[8]">% variance between budget (AOP) vs actual outcome</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="8" name="attr_weight[8]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Able to read and interpret balance sheet and P&L</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Able to draft and create AOP figures, and ability to take result based decisions</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="7"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+<td rowspan="3">9</td>
+<td rowspan="3"><textarea name="attribute[9]">Ability to  build business plans & determine ROI</textarea></td>
+
+<td><textarea name="tech[9][]">Ability to conceptualise business expansion plan</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[9]"># of complete business plans with ROI analysis/year</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="9" name="attr_weight[9]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Able to make expansion project detailed budgeting.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Able to calculate Detailed ROI and IRR and payback of the project and take decision</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="4"></td>
+
+</tr>
+
+<!-- TOTAL ROW -->
+<tr style="background:#f5f5f5;font-weight:bold;">
+<td colspan="4" align="right">TOTAL</td>
+<td id="totalAttr">0</td>
+<td id="totalTech">0</td>
+</tr>
+
+</table>
+
+
+<button id="saveBtn" class="rp-btn" type="submit" name="save">Save</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- footer.php -->
+
+<script src="footer.js"></script>
+
+</body>
+</html>
+<script>
+function calc(){
+
+    let totalAttr = 0;
+    let totalTech = 0;
+    let valid = true;
+
+    document.querySelectorAll('.data-row').forEach(r=>{
+        r.classList.remove('error-row');
+    });
+
+    document.querySelectorAll('.attr-weight').forEach(attr => {
+
+        let row = attr.dataset.row;
+        let attrVal = parseFloat(attr.value) || 0;
+
+        totalAttr += attrVal;
+
+        let techSum = 0;
+
+        document.querySelectorAll(`.tech-weight[data-row='${row}']`)
+        .forEach(t=>{
+            let v = parseFloat(t.value) || 0;
+            techSum += v;
+            totalTech += v;
+        });
+
+        if(techSum !== attrVal || attrVal === 0){
+            valid = false;
+
+            document.querySelectorAll(`.data-row[data-row='${row}']`)
+            .forEach(r=> r.style.background = "#ffe6e6");
+        }
+    });
+
+    document.getElementById('totalAttr').innerText = totalAttr;
+    document.getElementById('totalTech').innerText = totalTech;
+
+    if(totalAttr !== 100 || totalTech !== 100){
+        valid = false;
+    }
+
+    document.getElementById('saveBtn').disabled = !valid;
+}
+
+document.querySelectorAll('input').forEach(el=>{
+    el.addEventListener('input', calc);
+});
+
+calc();
+
+if (rowTotal === attrWeight) {
+    row.classList.remove("invalid-weight");
+    row.classList.add("valid-weight");
+} else {
+    row.classList.remove("valid-weight");
+    row.classList.add("invalid-weight");
+}
+</script>
+<script>
+document.querySelectorAll("textarea").forEach(el => {
+    function autoResize() {
+        el.style.height = "auto";
+        el.style.height = el.scrollHeight + "px";
+    }
+
+    el.addEventListener("input", autoResize);
+    autoResize(); // run on load
+});
+</script>
+
+</body>
+</html>

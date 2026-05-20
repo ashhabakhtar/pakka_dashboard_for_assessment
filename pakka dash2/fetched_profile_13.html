@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Role Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+<div class="rp-container">
+
+<div class="rp-title">
+Role Profile — PEOPLE AND CULTURE LEAD</div>
+
+
+<form method="POST">
+
+<table class="rp-table" id="roleTable">
+
+<tr>
+<td class="label">Mission</td>
+<td colspan="5"><textarea name="mission">Enhance culture of joy and performance across Pakka through effective building of organization design and practices</textarea></td>
+</tr>
+
+<tr>
+<td class="label">Key Outcomes</td>
+<td colspan="5">
+<input type="text" name="outcomes[]" value="Leadership efficacy, talent density and clear succession across organisation">
+<input type="text" name="outcomes[]" value="Customer centric, autonomous, non fear based organisation design and practices">
+<input type="text" name="outcomes[]" value="Transparent performance monitoring leading to self setting of pay and incentivisation">
+<input type="text" name="outcomes[]" value="Creative, innovative, and vibrant work environment built on people, cultural & ideational diversity and fearless experimentation">
+<input type="text" name="outcomes[]" value="Pakka as preferred place to work across locations, due to its values, open culture, inclusive working environment, and sustainable products.">
+</td>
+</tr>
+
+<tr class="header-row">
+<th>SN</th>
+<th>Attribute</th>
+<th>Technical Skills</th>
+<th>Assessment</th>
+<th>Weightage</th>
+<th>Individual Weightage</th>
+</tr>
+
+<tr class="data-row" data-row="1">
+
+<td rowspan="3">1</td>
+<td rowspan="3"><textarea name="attribute[1]">Organisational Design and Development</textarea></td>
+
+<td><textarea name="tech[1][]">Able to transform control oriented hierarchies and create trust based, autonomous and adaptive structures</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[1]">Sangh Autonomy Index: current+ 10%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="1" name="attr_weight[1]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Able to effectively socialize autonomous and innovative structures and ensure adaptation across organisation</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Able to design tech-enabled, customer centric processes and practices that enhance/ maximize business success</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+<td rowspan="3">2</td>
+<td rowspan="3"><textarea name="attribute[2]">Performance Excellence</textarea></td>
+
+<td><textarea name="tech[2][]">Able to develop composite performance matrix for full alignment of organizational targets with team and individual targets</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[2]">10% average increase in alignment (between Company & Individual Performance levels)</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="2" name="attr_weight[2]" value="12"></td>
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Able to enhance efficacy of performance systems (LP & VLP) with stretch goals and self assessment</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Able to ensure transparency in performance monitoring and compensation systems</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+<td rowspan="3">3</td>
+<td rowspan="3"><textarea name="attribute[3]">Guidelines and Policy Alignment</textarea></td>
+
+<td><textarea name="tech[3][]">Able to understand the purpose and unique needs of each domain while drafting guidelines</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[3]">Guidelines awareness and adoption: current +  10%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="3" name="attr_weight[3]" value="8"></td>
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Able to build guidelines collaboratively to enable culture of autonomy and trust amongst all members</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Able to implement and propagate well across all sectors of the organisation</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+<td rowspan="3">4</td>
+<td rowspan="3"><textarea name="attribute[4]">Talent Density and Diversity</textarea></td>
+
+<td><textarea name="tech[4][]">Able to scan talent trends, identify gaps in the system and craft effective talent acquisition strategies</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[4]">Talent Density: current +  10% & Talent Diversity: current +  10%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="4" name="attr_weight[4]" value="12"></td>
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Able to set up strong hiring systems for speed and continuous bar raising</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Able to regularly calibrate onboarding processes across locations in order to integrate new hires into the culture and their roles quickly and effectively</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+<td rowspan="3">5</td>
+<td rowspan="3"><textarea name="attribute[5]">Succession planning and leadership development</textarea></td>
+
+<td><textarea name="tech[5][]">Able to craft leadership development strategies in alignment with with business and organizational priorities</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[5]">Readiness of min 2 successors for Leaders
+
+10% avg  increase in competency in the LDP track</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="5" name="attr_weight[5]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Able to design and deliver scalable and tailored leadership development programs in tune with the strategies</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Able to develop leadership bench strength using an optimal blend of build and buy strategies for succession planning</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+<td rowspan="3">6</td>
+<td rowspan="3"><textarea name="attribute[6]">Competence Development</textarea></td>
+
+<td><textarea name="tech[6][]">Able to understand and build transparent role profiles with technical, functional, and behavioural indicators</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[6]">10 % increase in competency in the PSP track</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="6" name="attr_weight[6]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Able to create clear SOP's to enable effective delivery for each domain</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Able to build effective assessment and upskilling systems that enable feedback and development for each member</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+<td rowspan="3">7</td>
+<td rowspan="3"><textarea name="attribute[7]">Values and Culture</textarea></td>
+
+<td><textarea name="tech[7][]">Able to deeply comprehend the organisational values and espouse them through socialization and role modeling.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[7]">Team NPS: current + 20%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="7" name="attr_weight[7]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Able to institutionalize each of the organisation values through an integrated implementation of behaviours, systems and practices across the organization</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Able to align the guidelines and policies with organisational values and cultural practices</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+<td rowspan="3">8</td>
+<td rowspan="3"><textarea name="attribute[8]">Compensation & Benefits (or Total Rewards Systems)</textarea></td>
+
+<td><textarea name="tech[8][]">Able to develop a Total  Rewards philosophy aligned with the values and culture of the organization as well as the business priorities</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[8]">Benefit cost per employee (Total benefits cost ÷ Total employees): current -  5%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="8" name="attr_weight[8]" value="9"></td>
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Able to design and implement Total Rewards System that simultaneously promotes fairness, transparency, individual talent and team spirit.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Able to ensure that the Rewards and Recognition systems are globally competitive and meet local compliance requirements</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+<td rowspan="3">9</td>
+<td rowspan="3"><textarea name="attribute[9]">Corporate Social Responsibility</textarea></td>
+
+<td><textarea name="tech[9][]">Able to engage with and assess needs of the communities across multiple locations</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[9]">Community partnerships: current + 10%</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="9" name="attr_weight[9]" value="9"></td>
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Able to build partnerships and enable contribution for long term development of the local community</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Able to regularly assess the efficacy of each development programme and make requisite course corrections</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="2"></td>
+
+</tr>
+
+<!-- TOTAL ROW -->
+<tr style="background:#f5f5f5;font-weight:bold;">
+<td colspan="4" align="right">TOTAL</td>
+<td id="totalAttr">0</td>
+<td id="totalTech">0</td>
+</tr>
+
+</table>
+
+
+<button id="saveBtn" class="rp-btn" type="submit" name="save">Save</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- footer.php -->
+
+<script src="footer.js"></script>
+
+</body>
+</html>
+<script>
+function calc(){
+
+    let totalAttr = 0;
+    let totalTech = 0;
+    let valid = true;
+
+    document.querySelectorAll('.data-row').forEach(r=>{
+        r.classList.remove('error-row');
+    });
+
+    document.querySelectorAll('.attr-weight').forEach(attr => {
+
+        let row = attr.dataset.row;
+        let attrVal = parseFloat(attr.value) || 0;
+
+        totalAttr += attrVal;
+
+        let techSum = 0;
+
+        document.querySelectorAll(`.tech-weight[data-row='${row}']`)
+        .forEach(t=>{
+            let v = parseFloat(t.value) || 0;
+            techSum += v;
+            totalTech += v;
+        });
+
+        if(techSum !== attrVal || attrVal === 0){
+            valid = false;
+
+            document.querySelectorAll(`.data-row[data-row='${row}']`)
+            .forEach(r=> r.style.background = "#ffe6e6");
+        }
+    });
+
+    document.getElementById('totalAttr').innerText = totalAttr;
+    document.getElementById('totalTech').innerText = totalTech;
+
+    if(totalAttr !== 100 || totalTech !== 100){
+        valid = false;
+    }
+
+    document.getElementById('saveBtn').disabled = !valid;
+}
+
+document.querySelectorAll('input').forEach(el=>{
+    el.addEventListener('input', calc);
+});
+
+calc();
+
+if (rowTotal === attrWeight) {
+    row.classList.remove("invalid-weight");
+    row.classList.add("valid-weight");
+} else {
+    row.classList.remove("valid-weight");
+    row.classList.add("invalid-weight");
+}
+</script>
+<script>
+document.querySelectorAll("textarea").forEach(el => {
+    function autoResize() {
+        el.style.height = "auto";
+        el.style.height = el.scrollHeight + "px";
+    }
+
+    el.addEventListener("input", autoResize);
+    autoResize(); // run on load
+});
+</script>
+
+</body>
+</html>

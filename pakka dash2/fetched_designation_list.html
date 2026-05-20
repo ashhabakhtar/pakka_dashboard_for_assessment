@@ -1,0 +1,573 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Designation List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+
+    <div class="designation-container">
+
+        <div class="designation-header">
+            <h2>Designation List</h2>
+            <input type="text" id="searchBox" placeholder="Search designation..." class="search-box">
+        </div>
+
+        <!-- FY FILTER BAR -->
+        <div class="fy-filter-bar">
+            <label class="fy-filter-label">Financial Year</label>
+            <select id="fySelect" class="fy-filter-select"
+                    onchange="window.location='designation_list.php?fy='+this.value">
+                                <option value="2024-25"
+                    >
+                    FY 2024-25                </option>
+                                <option value="2025-26"
+                    >
+                    FY 2025-26                </option>
+                                <option value="2026-27"
+                    selected>
+                    FY 2026-27                </option>
+                            </select>
+                        <span class="fy-current-badge">Current Year</span>
+                    </div>
+
+        <table class="designation-table" id="designationTable">
+            <thead>
+                <tr>
+                    <th>SN</th>
+                    <th>Designation</th>
+                    <th>Edit Designation</th>
+                    <th>Role Profile</th>
+                    <th>FY 2026-27 Review</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                                <tr>
+                    <td>1</td>
+                    <td>AA</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=15" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=15" class="btn-role">Create</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                <span style="color:#aaa;font-size:13px;">No Role Profile</span>
+
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>2</td>
+                    <td>Brand and Marketing Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=10" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=10&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=10" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=10&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>3</td>
+                    <td>Commercial Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=9" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=9&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=9" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=9&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>4</td>
+                    <td>Corporate Affairs Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=11" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=11&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=11" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=11&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>5</td>
+                    <td>Finance Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=7" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=7&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=7" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=7&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>6</td>
+                    <td>Food Services Lead</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=12" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=12&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=12" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=12&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>7</td>
+                    <td>Global Lead</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=6" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=6&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=6" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=6&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>8</td>
+                    <td>IT Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=1" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=1&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=1" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=1&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>9</td>
+                    <td>Paper Sales Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=2" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=2&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=2" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=2&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>10</td>
+                    <td>People and Culture Lead</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=13" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=13&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=13" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=13&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>11</td>
+                    <td>Plant Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=8" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=8&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=8" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=8&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>12</td>
+                    <td>Projects Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=3" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=3&view=1" class="btn-role">View</a>
+                                <a href="role_profile.php?designation_id=3" class="btn-role">Edit</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                                                <a href="role_profile_assessment.php?designation_id=3&financial_year=2026-27"
+                                   class="btn-role">Review</a>
+                                
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>13</td>
+                    <td>SEWAK</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=14" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=14" class="btn-role">Create</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                <span style="color:#aaa;font-size:13px;">No Role Profile</span>
+
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>14</td>
+                    <td>Web Backend Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=5" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=5" class="btn-role">Create</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                <span style="color:#aaa;font-size:13px;">No Role Profile</span>
+
+                            
+                        </div>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>15</td>
+                    <td>Web Development Head</td>
+
+                    <!-- EDIT DESIGNATION -->
+                    <td>
+                        <div class="action-buttons">
+                            <a href="edit_designation.php?id=4" class="btn-edit">
+                                Edit Designation
+                            </a>
+                        </div>
+                    </td>
+
+                    <!-- ROLE PROFILE -->
+                    <td>
+                        <div class="action-buttons">
+                                                            <a href="role_profile.php?designation_id=4" class="btn-role">Create</a>
+                                                    </div>
+                    </td>
+
+                    <!-- FY REVIEW -->
+                    <td>
+                        <div class="action-buttons">
+
+                            
+                                <span style="color:#aaa;font-size:13px;">No Role Profile</span>
+
+                            
+                        </div>
+                    </td>
+                </tr>
+                            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<!-- SEARCH SCRIPT -->
+<script>
+document.getElementById("searchBox").addEventListener("keyup", function() {
+    let value = this.value.toLowerCase();
+    document.querySelectorAll("#designationTable tbody tr").forEach(row => {
+        row.style.display = row.innerText.toLowerCase().includes(value) ? "" : "none";
+    });
+});
+</script>
+
+</body>
+</html>

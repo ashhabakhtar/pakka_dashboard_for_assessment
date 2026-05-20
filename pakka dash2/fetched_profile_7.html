@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Role Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+<div class="rp-container">
+
+<div class="rp-title">
+Role Profile — FINANCE HEAD</div>
+
+
+<form method="POST">
+
+<table class="rp-table" id="roleTable">
+
+<tr>
+<td class="label">Mission</td>
+<td colspan="5"><textarea name="mission">Build financial strength within organization through fiscal and monetary discipline.</textarea></td>
+</tr>
+
+<tr>
+<td class="label">Key Outcomes</td>
+<td colspan="5">
+<input type="text" name="outcomes[]" value="Strengthen financial health with Net Debt/EBITDA ≤ 1.5x and RoCE ≥15%.">
+<input type="text" name="outcomes[]" value="Drive cost optimization initiatives saving ≥ ₹2Cr annually without impairing growth">
+<input type="text" name="outcomes[]" value="Ensure 100% statutory and regulatory compliance, zero audit qualifications">
+<input type="text" name="outcomes[]" value="Enable data-driven financial decision making with real-time dashboards across all SBUs.">
+<input type="text" name="outcomes[]" value="Lead investor relations to secure sustainable capital access and maintain valuation growth at 2x CAGR.">
+</td>
+</tr>
+
+<tr class="header-row">
+<th>SN</th>
+<th>Attribute</th>
+<th>Technical Skills</th>
+<th>Assessment</th>
+<th>Weightage</th>
+<th>Individual Weightage</th>
+</tr>
+
+<tr class="data-row" data-row="1">
+
+<td rowspan="3">1</td>
+<td rowspan="3"><textarea name="attribute[1]">Ensuring financial freedom for the organisation (Project funding and Working Capital Management at optimum cost)</textarea></td>
+
+<td><textarea name="tech[1][]">Understanding of various financial products and using to the benefit of the organisation - cost of Debt , Ease of raising debt and overall finance cost optimisation</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[1]">Working Capital cost YOY</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="1" name="attr_weight[1]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Raising of funds through alternative sources like Equity / Quasi Equity and Preferential allotments</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Understanding of the financial needs of the organisation and raising funds through Debt (Banks, FI's and Impact Investment)</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+<td rowspan="3">2</td>
+<td rowspan="3"><textarea name="attribute[2]">Investor relation Management / Shareholders Relations</textarea></td>
+
+<td><textarea name="tech[2][]">Ability to interact with investor and act as a financial mouthpiece of the organisation to the Owners</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[2]">1. Number of investor complaints resolved
+2. NPS > 75</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="2" name="attr_weight[2]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Holding of Quarterly Investor calls , results updates and communicating the financial performance and future plan of the organisation to investors and investor groups. Including road shows</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Creating transparency in financial reporting to the shareholders - results , Annual Reports, updates on Exchange and press releases to increase investor awareness and participation</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+<td rowspan="3">3</td>
+<td rowspan="3"><textarea name="attribute[3]">Financial Strategies</textarea></td>
+
+<td><textarea name="tech[3][]">Ability to refine process for preparation of AOP - provide data led indicators for annual and strategic Plan</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[3]"></textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="3" name="attr_weight[3]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Ability to Benchmarking studies and learning across industries for deepening awareness and growth and decision making</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Identify the organisation need for strategic acquisition and mergers , doing financial due diligence and presenting to the Management for further decision making</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+<td rowspan="3">4</td>
+<td rowspan="3"><textarea name="attribute[4]">Remove redundancy and improve efficiency in financial process. (controls without compromising speed)</textarea></td>
+
+<td><textarea name="tech[4][]">Ensure a well drafted Internal audit coverage programme to cover all areas of business on a cyclical basis .</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[4]">Closure of points identified in action items within timelines</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="4" name="attr_weight[4]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Ability to work with Internal Audit teams , convey the requirement properly to the audit team and support to the respective team in implementing the Action point coming from the Internal audit to ensure efficiency improvement</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Work on Action Taken report , represent to the Audit Committee and get their inputs embedded in the audit areas</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+<td rowspan="3">5</td>
+<td rowspan="3"><textarea name="attribute[5]">Excellence in corporate governance</textarea></td>
+
+<td><textarea name="tech[5][]">Ability to understand , train and become a flag bearer of Corporate Governance in the organisation</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[5]">No. of red flags/reports in complinity =0</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="5" name="attr_weight[5]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Ensure compliances to Exchanges , Board , Audit Committee , Ministry of Corporate Affairs in terms of Corporate governance adherence</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Ability to frame a Corporate Governance Policy for Management , leaders and organisation which is at least covering all the statutory requirement in terms of corporate governance guidelines laid as per Companies Act</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+<td rowspan="3">6</td>
+<td rowspan="3"><textarea name="attribute[6]">Excellence in Financial Accounting</textarea></td>
+
+<td><textarea name="tech[6][]">Ability to design and implement an efficient , vibrant and accurate financial accounting environment</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[6]">Timely submission of the monthly MIS</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="6" name="attr_weight[6]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Ensuring to bring and implement new technology , automations and tools to ensure accuracy and speed in financial recording and retrieval of information</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Build a team with high skill in each of the sub-areas of financial accounting</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+<td rowspan="3">7</td>
+<td rowspan="3"><textarea name="attribute[7]">Tax Management</textarea></td>
+
+<td><textarea name="tech[7][]">Ensuring all Direct/ Indirect tax structuring are done correctly to ensure business needs are identified and at the same time the same is tax efficient structure in terms of GST , Custom duty or selection of Direct Tax Mechanism</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[7]">No. of red flags/reports in complinity =0</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="7" name="attr_weight[7]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Compliance is Key - 0% tolerance to non compliance in tax filing</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Use of tools and software to ensure compliances are done in time - Compliance software</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+<td rowspan="3">8</td>
+<td rowspan="3"><textarea name="attribute[8]">Understanding of Mergers & Acquisitions</textarea></td>
+
+<td><textarea name="tech[8][]">Identifying opportunity for M&A and understanding / preparing feasibility - keeping in mind the organisational objective and growth strategy</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[8]">% Application of knowledge in M&A</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="8" name="attr_weight[8]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Participating in Valuations, negotiations and due diligence and supporting the decision making process</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Structuring of the deals and the legal process for Merger</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+<td rowspan="3">9</td>
+<td rowspan="3"><textarea name="attribute[9]">Ability to build a data led preemptive organization</textarea></td>
+
+<td><textarea name="tech[9][]">Ability to provide clear decision supporting dashboard for each function.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[9]">Automation of Dashboards</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="9" name="attr_weight[9]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Understanding of automation including various softwares/tools available in the market</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Ability to mitigate identified risks in business through automation/systems</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="5"></td>
+
+</tr>
+
+<!-- TOTAL ROW -->
+<tr style="background:#f5f5f5;font-weight:bold;">
+<td colspan="4" align="right">TOTAL</td>
+<td id="totalAttr">0</td>
+<td id="totalTech">0</td>
+</tr>
+
+</table>
+
+
+<button id="saveBtn" class="rp-btn" type="submit" name="save">Save</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- footer.php -->
+
+<script src="footer.js"></script>
+
+</body>
+</html>
+<script>
+function calc(){
+
+    let totalAttr = 0;
+    let totalTech = 0;
+    let valid = true;
+
+    document.querySelectorAll('.data-row').forEach(r=>{
+        r.classList.remove('error-row');
+    });
+
+    document.querySelectorAll('.attr-weight').forEach(attr => {
+
+        let row = attr.dataset.row;
+        let attrVal = parseFloat(attr.value) || 0;
+
+        totalAttr += attrVal;
+
+        let techSum = 0;
+
+        document.querySelectorAll(`.tech-weight[data-row='${row}']`)
+        .forEach(t=>{
+            let v = parseFloat(t.value) || 0;
+            techSum += v;
+            totalTech += v;
+        });
+
+        if(techSum !== attrVal || attrVal === 0){
+            valid = false;
+
+            document.querySelectorAll(`.data-row[data-row='${row}']`)
+            .forEach(r=> r.style.background = "#ffe6e6");
+        }
+    });
+
+    document.getElementById('totalAttr').innerText = totalAttr;
+    document.getElementById('totalTech').innerText = totalTech;
+
+    if(totalAttr !== 100 || totalTech !== 100){
+        valid = false;
+    }
+
+    document.getElementById('saveBtn').disabled = !valid;
+}
+
+document.querySelectorAll('input').forEach(el=>{
+    el.addEventListener('input', calc);
+});
+
+calc();
+
+if (rowTotal === attrWeight) {
+    row.classList.remove("invalid-weight");
+    row.classList.add("valid-weight");
+} else {
+    row.classList.remove("valid-weight");
+    row.classList.add("invalid-weight");
+}
+</script>
+<script>
+document.querySelectorAll("textarea").forEach(el => {
+    function autoResize() {
+        el.style.height = "auto";
+        el.style.height = el.scrollHeight + "px";
+    }
+
+    el.addEventListener("input", autoResize);
+    autoResize(); // run on load
+});
+</script>
+
+</body>
+</html>

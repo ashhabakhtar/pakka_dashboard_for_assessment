@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Role Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">PAKKA</div>
+    <div class="user"></div>
+</div><div class="sidebar">
+
+    <a href="dashboard.php" class="menu-link">🏠 Home</a>
+
+    <!-- DESIGNATION -->
+    <div class="menu-group">
+        <div class="submenu">
+            <a href="add_designation.php">Create Designation</a>
+            <a href="designation_list.php">All Role Profile</a>
+            <a href="role_profile_assessment_list.php">Assessment List</a>
+        </div>
+    </div>
+
+    <a href="https://team.pakka.com/login/logout" class="menu-link">🚪 Logout</a>
+
+</div>
+<div class="main">
+<div class="rp-container">
+
+<div class="rp-title">
+Role Profile — BRAND AND MARKETING HEAD</div>
+
+
+<form method="POST">
+
+<table class="rp-table" id="roleTable">
+
+<tr>
+<td class="label">Mission</td>
+<td colspan="5"><textarea name="mission">Build Pakka brands eponymous with regenerative food packaging.</textarea></td>
+</tr>
+
+<tr>
+<td class="label">Key Outcomes</td>
+<td colspan="5">
+<input type="text" name="outcomes[]" value="Build Chuk & Pakka brand equity via aided & unaided awareness (>70%) and consideration (>60%).">
+<input type="text" name="outcomes[]" value="Drive marketing-influenced revenue growth to ₹1,000 Cr with ROI ≥ 10:1.">
+<input type="text" name="outcomes[]" value="Accelerate new-product adoption (NPVI) to ≥ 20% of total sales.">
+<input type="text" name="outcomes[]" value="Elevate customer loyalty & advocacy to NPS ≥ 80%.">
+<input type="text" name="outcomes[]" value="Strengthen Pakka’s sustainability & employer brand to NPS ≥ 60%.">
+</td>
+</tr>
+
+<tr class="header-row">
+<th>SN</th>
+<th>Attribute</th>
+<th>Technical Skills</th>
+<th>Assessment</th>
+<th>Weightage</th>
+<th>Individual Weightage</th>
+</tr>
+
+<tr class="data-row" data-row="1">
+
+<td rowspan="3">1</td>
+<td rowspan="3"><textarea name="attribute[1]">Strategic Brand Leadership</textarea></td>
+
+<td><textarea name="tech[1][]">Conducts thorough market research and competitive analysis to identify opportunities, threats, and emerging trends, informing strategic decision-making.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[1]">Brand Consideration Index ≥ 60</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="1" name="attr_weight[1]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Develops and implements effective brand positioning and messaging that resonates with the target audience and differentiates the brand from competitors.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="1">
+
+
+<td><textarea name="tech[1][]">Sets a clear and inspiring brand vision and strategy for the Indian market, aligned with the global brand identity and local consumer insights.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="1" name="tech_weight[1][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+<td rowspan="3">2</td>
+<td rowspan="3"><textarea name="attribute[2]">Marketing & Communication Process</textarea></td>
+
+<td><textarea name="tech[2][]">Creates integrated marketing campaigns across channels to drive engagement and awareness.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[2]">Brand Awareness Index ≥ 70</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="2" name="attr_weight[2]" value="12"></td>
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Develops emotionally compelling content to connect with consumers and enhance brand loyalty.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="2">
+
+
+<td><textarea name="tech[2][]">Manages media and agency relations for effective execution and ROI maximization.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="2" name="tech_weight[2][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+<td rowspan="3">3</td>
+<td rowspan="3"><textarea name="attribute[3]">Digital & Social Media Acumen</textarea></td>
+
+<td><textarea name="tech[3][]">Develops and implements digital strategies to foster engagement and build online communities.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[3]">Campaign Engagement Rate ≥ 30 %</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="3" name="attr_weight[3]" value="8"></td>
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="2"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Leverages analytics and insights to optimize performance and identify opportunities.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="3">
+
+
+<td><textarea name="tech[3][]">Keeps up with trends and innovation to ensure relevance in the digital space.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="3" name="tech_weight[3][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+<td rowspan="3">4</td>
+<td rowspan="3"><textarea name="attribute[4]">Collaboration & Stakeholder Management</textarea></td>
+
+<td><textarea name="tech[4][]">Builds strong relationships with internal stakeholders (sales, product, customer service) to ensure brand consistency and alignment across all touchpoints.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[4]">Team NPS ≥ 60</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="4" name="attr_weight[4]" value="12"></td>
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Fosters strategic partnerships with external stakeholders, including media, influencers, and industry associations, to amplify brand reach and impact.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="4">
+
+
+<td><textarea name="tech[4][]">Effectively communicates the brand's vision and values to internal and external audiences, fostering a culture of brand advocacy.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="4" name="tech_weight[4][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+<td rowspan="3">5</td>
+<td rowspan="3"><textarea name="attribute[5]">Product Portfolio Management</textarea></td>
+
+<td><textarea name="tech[5][]">Collaborates with R&D teams to develop innovative solutions aligned with market needs.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[5]"></textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="5" name="attr_weight[5]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Conducts regular product performance reviews to inform future strategies.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="5">
+
+
+<td><textarea name="tech[5][]">Identifies market gaps and opportunities for portfolio optimization.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="5" name="tech_weight[5][]" value="6"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+<td rowspan="3">6</td>
+<td rowspan="3"><textarea name="attribute[6]">Customer Insight & Market Intelligence</textarea></td>
+
+<td><textarea name="tech[6][]">Conducts in-depth market research to understand customer needs, preferences, and pain points.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[6]">Customer NPS ≥ 80</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="6" name="attr_weight[6]" value="15"></td>
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Analyzes competitive landscape to inform decision-making and refine strategies.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="6">
+
+
+<td><textarea name="tech[6][]">Translates insights into actionable strategies for brand and sales growth.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="6" name="tech_weight[6][]" value="5"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+<td rowspan="3">7</td>
+<td rowspan="3"><textarea name="attribute[7]">Financial & Commercial Acumen</textarea></td>
+
+<td><textarea name="tech[7][]">Develops and manages the brand's budget effectively, ensuring optimal resource allocation and ROI for marketing investments.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[7]">Marketing ROI ≥ 10:1</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="7" name="attr_weight[7]" value="10"></td>
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Sets clear financial goals and KPIs for the brand, tracking performance and making data-driven decisions to maximize profitability.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="7">
+
+
+<td><textarea name="tech[7][]">Collaborates with sales and finance teams to develop pricing strategies that balance brand value and market competitiveness.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="7" name="tech_weight[7][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+<td rowspan="3">8</td>
+<td rowspan="3"><textarea name="attribute[8]">Innovation & Adaptability</textarea></td>
+
+<td><textarea name="tech[8][]">Embraces a culture of innovation, constantly seeking new and creative ways to engage consumers and elevate the brand experience.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[8]">Campaign Launch Velocity ≥ 4 per yr</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="8" name="attr_weight[8]" value="9"></td>
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Demonstrates agility and adaptability in responding to market changes, competitive challenges, and evolving consumer trends.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="8">
+
+
+<td><textarea name="tech[8][]">Encourages experimentation and risk-taking within the team, fostering a learning environment that drives continuous improvement.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="8" name="tech_weight[8][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+<td rowspan="3">9</td>
+<td rowspan="3"><textarea name="attribute[9]">Leadership & Team Development</textarea></td>
+
+<td><textarea name="tech[9][]">Builds and leads a high-performing brand team, providing mentorship, guidance, and opportunities for growth and development.</textarea></td>
+
+<td rowspan="3"><textarea name="assessment[9]">Team NPS ≥ 60</textarea></td>
+<td rowspan="3"><input type="number" class="attr-weight" data-row="9" name="attr_weight[9]" value="9"></td>
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="3"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Creates a positive and inclusive work environment that encourages creativity, collaboration, and a passion for the brand.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="4"></td>
+
+</tr>
+<tr class="data-row" data-row="9">
+
+
+<td><textarea name="tech[9][]">Empowers team members to take ownership of their work and contribute to the brand's success.</textarea></td>
+
+
+<td><input type="number" class="tech-weight" data-row="9" name="tech_weight[9][]" value="2"></td>
+
+</tr>
+
+<!-- TOTAL ROW -->
+<tr style="background:#f5f5f5;font-weight:bold;">
+<td colspan="4" align="right">TOTAL</td>
+<td id="totalAttr">0</td>
+<td id="totalTech">0</td>
+</tr>
+
+</table>
+
+
+<button id="saveBtn" class="rp-btn" type="submit" name="save">Save</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- footer.php -->
+
+<script src="footer.js"></script>
+
+</body>
+</html>
+<script>
+function calc(){
+
+    let totalAttr = 0;
+    let totalTech = 0;
+    let valid = true;
+
+    document.querySelectorAll('.data-row').forEach(r=>{
+        r.classList.remove('error-row');
+    });
+
+    document.querySelectorAll('.attr-weight').forEach(attr => {
+
+        let row = attr.dataset.row;
+        let attrVal = parseFloat(attr.value) || 0;
+
+        totalAttr += attrVal;
+
+        let techSum = 0;
+
+        document.querySelectorAll(`.tech-weight[data-row='${row}']`)
+        .forEach(t=>{
+            let v = parseFloat(t.value) || 0;
+            techSum += v;
+            totalTech += v;
+        });
+
+        if(techSum !== attrVal || attrVal === 0){
+            valid = false;
+
+            document.querySelectorAll(`.data-row[data-row='${row}']`)
+            .forEach(r=> r.style.background = "#ffe6e6");
+        }
+    });
+
+    document.getElementById('totalAttr').innerText = totalAttr;
+    document.getElementById('totalTech').innerText = totalTech;
+
+    if(totalAttr !== 100 || totalTech !== 100){
+        valid = false;
+    }
+
+    document.getElementById('saveBtn').disabled = !valid;
+}
+
+document.querySelectorAll('input').forEach(el=>{
+    el.addEventListener('input', calc);
+});
+
+calc();
+
+if (rowTotal === attrWeight) {
+    row.classList.remove("invalid-weight");
+    row.classList.add("valid-weight");
+} else {
+    row.classList.remove("valid-weight");
+    row.classList.add("invalid-weight");
+}
+</script>
+<script>
+document.querySelectorAll("textarea").forEach(el => {
+    function autoResize() {
+        el.style.height = "auto";
+        el.style.height = el.scrollHeight + "px";
+    }
+
+    el.addEventListener("input", autoResize);
+    autoResize(); // run on load
+});
+</script>
+
+</body>
+</html>
