@@ -1,0 +1,2136 @@
+{
+    "1": {
+        "designation_id": 1,
+        "title": "Role Profile â IT HEAD",
+        "mission": "Enable business and all stakeholders to have digital driven decision making and create transparency with the partners and customers.",
+        "outcomes": [
+            "End to end product & customer transparency - 100% data sharing from both sides",
+            "Complete data driven automated decision making in all the areas of operations  - 100% visibility of their performance. ",
+            "AI Led R&D and product development leading to 50 reduction in time to market - 100% visibility of historical results",
+            "100% Strategic business decision making backed by data visibility",
+            "Efficacy for team through 100% digitization throughout complete team life cycle"
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Digital Transformation Leadership",
+                "weightage": 15,
+                "assessment": "% Processes automated â¥ %",
+                "attributes": [
+                    {
+                        "desc": "Champion innovation to maintain competitive advantage.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Define and drive a future-ready IT strategy aligned with business goals.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ensures seamless integration of digital tools across all departments.",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Data-Driven Decision Making",
+                "weightage": 10,
+                "assessment": "Decision Automation Rate â¥ 95%",
+                "attributes": [
+                    {
+                        "desc": "Establishes enterprise-wide data governance frameworks.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Build real-time dashboards and analytics for decision visibility.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Promote a culture of evidence-based decision making across leadership.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "AI & Advanced Tech Application",
+                "weightage": 10,
+                "assessment": "Time-to-Market Reduction â¥ %",
+                "attributes": [
+                    {
+                        "desc": "Implements AI-led R&D and product development initiatives.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Identify emerging technologies and pilots them for business use.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Reduce time-to-market through predictive analytics and automation.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "IT Infrastructure & Security",
+                "weightage": 10,
+                "assessment": "System Uptime â¥ 99.9%; Security Breaches = 0",
+                "attributes": [
+                    {
+                        "desc": "Maintain robust, scalable, and secure IT infrastructure.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ensure business continuity with zero unplanned downtime.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Strengthen cybersecurity posture through proactive monitoring and audits.",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Business Alignment & Strategy",
+                "weightage": 15,
+                "assessment": "% Strategic Decisions backed by IT â¥ 90%",
+                "attributes": [
+                    {
+                        "desc": "Provide predictive and prescriptive analytics for business planning.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Translate business strategy into digital\/IT enablers.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Partner with Ops and R&D head to co-create IT-led strategic initiatives.",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Deep understanding of IT tools in manufacturing and applications efficacy",
+                "weightage": 10,
+                "assessment": "% of manual working",
+                "attributes": [
+                    {
+                        "desc": "Understanding of shop floor operations and processes.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ability to identify the automation and capturing of real time data",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to create solutions and deployment.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Vendor & Ecosystem Management",
+                "weightage": 10,
+                "assessment": "IT Cost Efficiency â¥ % YoY",
+                "attributes": [
+                    {
+                        "desc": "Builds strong partnerships with technology providers.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Negotiates for cost efficiency and innovation.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ensures ecosystem agility and resilience.",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Clear understanding and impact of Financial data",
+                "weightage": 10,
+                "assessment": "% of Audit Observations",
+                "attributes": [
+                    {
+                        "desc": "Understanding of all process KPIs and impact on profitability",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Understanding of revenue leakages and remedials",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Knowledge of Company targets, Values, Goal and vision,  financial terms (PBT,  PAT, Contribution per hours, Revenue etc.)",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Process Innovation & Automation",
+                "weightage": 10,
+                "assessment": "Digital Adoption Rate â¥ 95%",
+                "attributes": [
+                    {
+                        "desc": "Automates core and support processes across the value chain.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Digitizes the full employee lifecycle (hire-to-retire).",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Enhances customer experience through frictionless digital journeys.",
+                        "weight": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "10": {
+        "designation_id": 10,
+        "title": "Role Profile â BRAND AND MARKETING HEAD",
+        "mission": "Build Pakka brands eponymous with regenerative food packaging.",
+        "outcomes": [
+            "Build Chuk & Pakka brand equity via aided & unaided awareness (>70%) and consideration (>60%).",
+            "Drive marketing-influenced revenue growth to â¹1,000 Cr with ROI â¥ 10:1.",
+            "Accelerate new-product adoption (NPVI) to â¥ 20% of total sales.",
+            "Elevate customer loyalty & advocacy to NPS â¥ 80%.",
+            "Strengthen Pakkaâs sustainability & employer brand to NPS â¥ 60%."
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Strategic Brand Leadership",
+                "weightage": 10,
+                "assessment": "Brand Consideration Index â¥ 60",
+                "attributes": [
+                    {
+                        "desc": "Conducts thorough market research and competitive analysis to identify opportunities, threats, and emerging trends, informing strategic decision-making.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Develops and implements effective brand positioning and messaging that resonates with the target audience and differentiates the brand from competitors.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Sets a clear and inspiring brand vision and strategy for the Indian market, aligned with the global brand identity and local consumer insights.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Marketing & Communication Process",
+                "weightage": 12,
+                "assessment": "Brand Awareness Index â¥ 70",
+                "attributes": [
+                    {
+                        "desc": "Creates integrated marketing campaigns across channels to drive engagement and awareness.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Develops emotionally compelling content to connect with consumers and enhance brand loyalty.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Manages media and agency relations for effective execution and ROI maximization.",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Digital & Social Media Acumen",
+                "weightage": 8,
+                "assessment": "Campaign Engagement Rate â¥ 30 %",
+                "attributes": [
+                    {
+                        "desc": "Develops and implements digital strategies to foster engagement and build online communities.",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Leverages analytics and insights to optimize performance and identify opportunities.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Keeps up with trends and innovation to ensure relevance in the digital space.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Collaboration & Stakeholder Management",
+                "weightage": 12,
+                "assessment": "Team NPS â¥ 60",
+                "attributes": [
+                    {
+                        "desc": "Builds strong relationships with internal stakeholders (sales, product, customer service) to ensure brand consistency and alignment across all touchpoints.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Fosters strategic partnerships with external stakeholders, including media, influencers, and industry associations, to amplify brand reach and impact.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Effectively communicates the brand's vision and values to internal and external audiences, fostering a culture of brand advocacy.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Product Portfolio Management",
+                "weightage": 15,
+                "assessment": "",
+                "attributes": [
+                    {
+                        "desc": "Collaborates with R&D teams to develop innovative solutions aligned with market needs.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Conducts regular product performance reviews to inform future strategies.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Identifies market gaps and opportunities for portfolio optimization.",
+                        "weight": 6
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Customer Insight & Market Intelligence",
+                "weightage": 15,
+                "assessment": "Customer NPS â¥ 80",
+                "attributes": [
+                    {
+                        "desc": "Conducts in-depth market research to understand customer needs, preferences, and pain points.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Analyzes competitive landscape to inform decision-making and refine strategies.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Translates insights into actionable strategies for brand and sales growth.",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Financial & Commercial Acumen",
+                "weightage": 10,
+                "assessment": "Marketing ROI â¥ 10:1",
+                "attributes": [
+                    {
+                        "desc": "Develops and manages the brand's budget effectively, ensuring optimal resource allocation and ROI for marketing investments.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Sets clear financial goals and KPIs for the brand, tracking performance and making data-driven decisions to maximize profitability.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Collaborates with sales and finance teams to develop pricing strategies that balance brand value and market competitiveness.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Innovation & Adaptability",
+                "weightage": 9,
+                "assessment": "Campaign Launch Velocity â¥ 4 per yr",
+                "attributes": [
+                    {
+                        "desc": "Embraces a culture of innovation, constantly seeking new and creative ways to engage consumers and elevate the brand experience.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Demonstrates agility and adaptability in responding to market changes, competitive challenges, and evolving consumer trends.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Encourages experimentation and risk-taking within the team, fostering a learning environment that drives continuous improvement.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Leadership & Team Development",
+                "weightage": 9,
+                "assessment": "Team NPS â¥ 60",
+                "attributes": [
+                    {
+                        "desc": "Builds and leads a high-performing brand team, providing mentorship, guidance, and opportunities for growth and development.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Creates a positive and inclusive work environment that encourages creativity, collaboration, and a passion for the brand.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Empowers team members to take ownership of their work and contribute to the brand's success.",
+                        "weight": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "11": {
+        "designation_id": 11,
+        "title": "Role Profile â CORPORATE AFFAIRS HEAD",
+        "mission": "To champion Pakka's reputation by building and sustaining strong relationships with government authorities, regulatory agencies, and community stakeholders",
+        "outcomes": [
+            "Proactively mitigate regulatory risks, reducing external disputes and penalties to zero.",
+            "Build and sustain high-trust relationships with government bodies and industry associations (â¥90% positive stakeholder feedback).",
+            "Influence policy engagement leading to at least 3 tangible advantages (subsidies, permissions, industry positioning) per year.",
+            "Position Pakka as a thought leader in sustainable packaging policy at both state and national levels",
+            "Forge at least 5 new strategic partnerships annually with key public sector, regulatory, or community entities."
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Regulatory Acumen",
+                "weightage": 10,
+                "assessment": "Compliance Adherence = 100%",
+                "attributes": [
+                    {
+                        "desc": "Anticipate regulatory changes and prepares proactive responses.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Establish robust internal tracking systems for approvals and renewals.",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Ensure 100% compliance with all statutory and environmental laws.",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Relationship Management",
+                "weightage": 20,
+                "assessment": "Stakeholder Trust Score â¥ 90%",
+                "attributes": [
+                    {
+                        "desc": "Build trusted relationships with central, state, and local authorities.",
+                        "weight": 10
+                    },
+                    {
+                        "desc": "Ability to build partnerships to create org impact at scale.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ability to continuously monitor stakeholder perception and refine rel mgt strategies.",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Policy Influence & Advocacy",
+                "weightage": 10,
+                "assessment": "Policy Wins â¥ 3 per yr",
+                "attributes": [
+                    {
+                        "desc": "Actively contribute to industry consultations and policy frameworks",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Represent the company in high-level dialogues with policymakers.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Achieve tangible policy wins (subsidies, approvals, incentives).",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Crisis & Risk Management",
+                "weightage": 10,
+                "assessment": "Regulatory Penalties = 0",
+                "attributes": [
+                    {
+                        "desc": "Identify and mitigate potential regulatory risks early.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Resolve disputes with zero escalation to litigation.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Build contingency frameworks for compliance crises.",
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Industry Engagement",
+                "weightage": 10,
+                "assessment": "Industry Forum Representation â¥ 5\/yr",
+                "attributes": [
+                    {
+                        "desc": "Forge alliances with industry bodies for collective advocacy.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Gain membership in professional PR bodies (PRSI, IABC) and corporate image consulting organizations (AICI, IICI) while building expertise to achieve board positions within next 3 years.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Represent Pakka at national and international industry forums.",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Negotiation & Influence",
+                "weightage": 10,
+                "assessment": "Subsidy\/Benefit Realization â¥ â¹X Cr",
+                "attributes": [
+                    {
+                        "desc": "Secure financial benefits through negotiation with govt. departments.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Drive alignment between Pakka goals and state-level priorities.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Protect Pakka's interests in policy discussions.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Corporate Image and reputation",
+                "weightage": 10,
+                "assessment": "Brand Sentiment Score â¥ 75%",
+                "attributes": [
+                    {
+                        "desc": "Enhance Pakka's image as a sustainability  leader in food packaging.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Monitor and manage corporate reputation through proactive media engagement and crisis communication strategy.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Develop and execute thought leadership initiatives to position Pakka executives as industry experts",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Stake holder Management",
+                "weightage": 10,
+                "assessment": "NPS>90%",
+                "attributes": [
+                    {
+                        "desc": "Ability to understand the stakeholders and related risks involved",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to forecast stakeholder behaviours and proactively address challenges",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to build and enhance Pakka's reputation amongst stakeholders",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Social and Community impact",
+                "weightage": 10,
+                "assessment": "3 successful CSR project implementation",
+                "attributes": [
+                    {
+                        "desc": "Ability to impact local communities with strategic investments in Education, Employment & Ecology",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ability to manage and take decisions on community expectations",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to showcase and amplify CSR initiatives to enhance goodwill amongst various stakeholders and communities",
+                        "weight": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "12": {
+        "designation_id": 12,
+        "title": "Role Profile â FOOD SERVICES LEAD",
+        "mission": "Transform food services disposables in India by gaining 10% market share",
+        "outcomes": [
+            "Revenue >800 Cr PBT >150 Cr",
+            "Food service business establish  >50,000 TPY",
+            "Complete range of solutions build for QSR needs",
+            "Build end to end regenerative partnership solutions by onboarding all major institutional caterers",
+            "Strengthen supply chain by building long term gainful partnerships with all vendors"
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Brand positioning and marketing",
+                "weightage": 8,
+                "assessment": "Achieve min 95% of sales targets",
+                "attributes": [
+                    {
+                        "desc": "Positioning for creating pull from desired customers",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Creating and monitoring campaigns for efficacy",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Clarity on finding niches and positioning",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Customer needs and product offerings",
+                "weightage": 10,
+                "assessment": "Keep a strong product pipeline. NPS >20%",
+                "attributes": [
+                    {
+                        "desc": "Deep understanding for market and customer needs- latent and expressed",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Effective and timely development and optimisation of products",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ability to create value for customers with unique solutions",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Deep customer relationships and service efficacy",
+                "weightage": 10,
+                "assessment": "OTD >95% and customer NPS > 30%",
+                "attributes": [
+                    {
+                        "desc": "Clear identification of markets and key accounts",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Development of exclusivity and bonds with top 25 customers",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Efficacy in understanding user needs and upgrading products and services to customer",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Clear industry understanding and stakeholder relationships",
+                "weightage": 7,
+                "assessment": "Channel Partner performance >90% achievement of targets",
+                "attributes": [
+                    {
+                        "desc": "Participation and knowledge through industry and cross industry forums",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Thought leadership, dissemination of information internally and externally",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Global relationships in industry and collaboration opportunities",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Effective team development",
+                "weightage": 15,
+                "assessment": "Team NPS >30%",
+                "attributes": [
+                    {
+                        "desc": "Building of strong performance systems",
+                        "weight": 6
+                    },
+                    {
+                        "desc": "Building a culture of transparency and enhancing human potential",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Efficacy in organisation structure, role clarity and hiring processes",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Build distribution efficacy",
+                "weightage": 15,
+                "assessment": "Product availability at zipcodes:> 90% of plan",
+                "attributes": [
+                    {
+                        "desc": "Deep understanding of distribution systems",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to identify partners and build long term relationships",
+                        "weight": 6
+                    },
+                    {
+                        "desc": "Ability to disrupt systems to maximise customer benefit",
+                        "weight": 6
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Technology excellence",
+                "weightage": 10,
+                "assessment": "Cost efficiency and customer NPS > 30%",
+                "attributes": [
+                    {
+                        "desc": "Ability to identify tools and ensure their deployment to enable data led decision making.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Affinity towards IT systems and ability to identify and adopt as per need",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Be able to create required analytics for forecasting and providing value to customer.",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Long term building of supply chain and deepening vendor relationship",
+                "weightage": 15,
+                "assessment": "Robustness in supply chain; >95% OTD",
+                "attributes": [
+                    {
+                        "desc": "Ability to build strong audits and QA systems",
+                        "weight": 6
+                    },
+                    {
+                        "desc": "Strength in building supply chains and exclusive tie ups for required products.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Deep bonds and relationships with vendors and long term tie-ups",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Effective Financial Management",
+                "weightage": 10,
+                "assessment": "Consistently (10\/12 months min) meeting the budget at positive variance",
+                "attributes": [
+                    {
+                        "desc": "Ability to build effective projections and build goals",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to monitor financial performance",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Strength in data led decision making",
+                        "weight": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "13": {
+        "designation_id": 13,
+        "title": "Role Profile â PEOPLE AND CULTURE LEAD",
+        "mission": "Enhance culture of joy and performance across Pakka through effective building of organization design and practices",
+        "outcomes": [
+            "Leadership efficacy, talent density and clear succession across organisation",
+            "Customer centric, autonomous, non fear based organisation design and practices",
+            "Transparent performance monitoring leading to self setting of pay and incentivisation",
+            "Creative, innovative, and vibrant work environment built on people, cultural & ideational diversity and fearless experimentation",
+            "Pakka as preferred place to work across locations, due to its values, open culture, inclusive working environment, and sustainable products."
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Organisational Design and Development",
+                "weightage": 10,
+                "assessment": "Sangh Autonomy Index: current+ 10%",
+                "attributes": [
+                    {
+                        "desc": "Able to transform control oriented hierarchies and create trust based, autonomous and adaptive structures",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Able to effectively socialize autonomous and innovative structures and ensure adaptation across organisation",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to design tech-enabled, customer centric processes and practices that enhance\/ maximize business success",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Performance Excellence",
+                "weightage": 12,
+                "assessment": "10% average increase in alignment (between Company & Individual Performance levels)",
+                "attributes": [
+                    {
+                        "desc": "Able to develop composite performance matrix for full alignment of organizational targets with team and individual targets",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Able to enhance efficacy of performance systems (LP & VLP) with stretch goals and self assessment",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to ensure transparency in performance monitoring and compensation systems",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Guidelines and Policy Alignment",
+                "weightage": 8,
+                "assessment": "Guidelines awareness and adoption: current +  10%",
+                "attributes": [
+                    {
+                        "desc": "Able to understand the purpose and unique needs of each domain while drafting guidelines",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Able to build guidelines collaboratively to enable culture of autonomy and trust amongst all members",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to implement and propagate well across all sectors of the organisation",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Talent Density and Diversity",
+                "weightage": 12,
+                "assessment": "Talent Density: current +  10% & Talent Diversity: current +  10%",
+                "attributes": [
+                    {
+                        "desc": "Able to scan talent trends, identify gaps in the system and craft effective talent acquisition strategies",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Able to set up strong hiring systems for speed and continuous bar raising",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Able to regularly calibrate onboarding processes across locations in order to integrate new hires into the culture and their roles quickly and effectively",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Succession planning and leadership development",
+                "weightage": 15,
+                "assessment": "Readiness of min 2 successors for Leaders\r\n\r\n10% avg  increase in competency in the LDP track",
+                "attributes": [
+                    {
+                        "desc": "Able to craft leadership development strategies in alignment with with business and organizational priorities",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Able to design and deliver scalable and tailored leadership development programs in tune with the strategies",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Able to develop leadership bench strength using an optimal blend of build and buy strategies for succession planning",
+                        "weight": 6
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Competence Development",
+                "weightage": 15,
+                "assessment": "10 % increase in competency in the PSP track",
+                "attributes": [
+                    {
+                        "desc": "Able to understand and build transparent role profiles with technical, functional, and behavioural indicators",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Able to create clear SOP's to enable effective delivery for each domain",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Able to build effective assessment and upskilling systems that enable feedback and development for each member",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Values and Culture",
+                "weightage": 10,
+                "assessment": "Team NPS: current + 20%",
+                "attributes": [
+                    {
+                        "desc": "Able to deeply comprehend the organisational values and espouse them through socialization and role modeling.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to institutionalize each of the organisation values through an integrated implementation of behaviours, systems and practices across the organization",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Able to align the guidelines and policies with organisational values and cultural practices",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Compensation & Benefits (or Total Rewards Systems)",
+                "weightage": 9,
+                "assessment": "Benefit cost per employee (Total benefits cost Ã· Total employees): current -  5%",
+                "attributes": [
+                    {
+                        "desc": "Able to develop a Total  Rewards philosophy aligned with the values and culture of the organization as well as the business priorities",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to design and implement Total Rewards System that simultaneously promotes fairness, transparency, individual talent and team spirit.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to ensure that the Rewards and Recognition systems are globally competitive and meet local compliance requirements",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Corporate Social Responsibility",
+                "weightage": 9,
+                "assessment": "Community partnerships: current + 10%",
+                "attributes": [
+                    {
+                        "desc": "Able to engage with and assess needs of the communities across multiple locations",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to build partnerships and enable contribution for long term development of the local community",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Able to regularly assess the efficacy of each development programme and make requisite course corrections",
+                        "weight": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "2": {
+        "designation_id": 2,
+        "title": "Role Profile â PAPER SALES HEAD",
+        "mission": "Responsible for growth of turnover, profitability and cash availability for the Company through creating deep customer bonds and service delight",
+        "outcomes": [
+            "Deliver annual domestic and export sales targets to contribute â¥  Cr revenue with â¥ % EBITDA margin.",
+            "Expand customer base by â¥ 15% while improving customer retention rate to â¥ 80%.",
+            "Increase share of sustainable\/innovative paper products in the sales portfolio.",
+            "Enhance distributor\/channel performance .",
+            "Build Pakkaâs reputation as a preferred partner for paper solutions (NPS â¥ 90%)"
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Sales & Revenue Growth",
+                "weightage": 15,
+                "assessment": "% of annual sales target achieved",
+                "attributes": [
+                    {
+                        "desc": "Expand exports and domestic sales simultaneously",
+                        "weight": 6
+                    },
+                    {
+                        "desc": "Achieves annual revenue targets â¥ â¹ 341 Cr.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Consistent achievement and  strategic growth",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Profitability Achievement",
+                "weightage": 15,
+                "assessment": "Profit growth YoY (%)",
+                "attributes": [
+                    {
+                        "desc": "Ensure profitability with EBITDA margin â¥ 15%.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ability to consistently maximize sales of higher profit products",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ability to negotiate for high profitability",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Nurturing Customer relationships",
+                "weightage": 10,
+                "assessment": "NPS > 90%",
+                "attributes": [
+                    {
+                        "desc": "Develop partnership bond with strategic customers Expand customer base by â¥12%.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to be partner of choice and increase in market share",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Maintains â¥90% customer retention rate",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Channel & Distributor Management",
+                "weightage": 10,
+                "assessment": "YoY growth in channel sales",
+                "attributes": [
+                    {
+                        "desc": "Improve distributor profit\/ volume",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Develops transparent channel engagement practices",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Channel & Distributor expansion",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Data-Driven Sales Management",
+                "weightage": 10,
+                "assessment": "Number of dashboards\/reports used effectively",
+                "attributes": [
+                    {
+                        "desc": "Enhances pipeline visibility and forecasting accuracy.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ability to take key decisions supported through data",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Implement CRM with predictive analytics.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Understanding Market trends and Competitive landscape",
+                "weightage": 10,
+                "assessment": "% variance between forecasted vs actual trends",
+                "attributes": [
+                    {
+                        "desc": "Ability to make forecast and trend presentations",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to make data presentation of the competitive market trends",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to forecast external and internal factors which contributes to sales",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "New Product Research",
+                "weightage": 10,
+                "assessment": "No. of new product ideas piloted",
+                "attributes": [
+                    {
+                        "desc": "Consistent market feedback",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to contribute in product updating with development teams",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ability to identify new market trend and sales patterns",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Solution Selling & Value Creation",
+                "weightage": 10,
+                "assessment": "NPS â¥ 75",
+                "attributes": [
+                    {
+                        "desc": "Transitions from product-selling to consultative, solution-based sales.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Positions Pakka as a partner in sustainability.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Maximizes customer lifetime value.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Understanding usages and conversion processes",
+                "weightage": 10,
+                "assessment": "% Application of knowledge",
+                "attributes": [
+                    {
+                        "desc": "Clear understanding of customers' use",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Clear understanding of convertors' process and intricacies involved",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ability to analyse\/observe the conversion process and guide for optimal usage",
+                        "weight": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "3": {
+        "designation_id": 3,
+        "title": "Role Profile â PROJECTS HEAD",
+        "mission": "Provide option of good quality flexible packaging product to customers and gain leadership position in respective market.",
+        "outcomes": [
+            "Effective completion of Project Jagriti by May 26 and other forthcoming projects to enable target revenue growth of company.",
+            "Carbon neutral ecological footprint.",
+            "NPS > 60% customers.",
+            "Optimised usages consumption target for projects.",
+            "Adoption of digitalisation in every project."
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Strategic Project Planning",
+                "weightage": 15,
+                "assessment": "On time and within budget execution",
+                "attributes": [
+                    {
+                        "desc": "Create a standard roadmap for all the stages and process",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Analyse overall model and prepare alternative strategies to mitigate risk",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Define the project's scope & standards aligned to global practices to ensure excellence",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Execution Excellence",
+                "weightage": 15,
+                "assessment": "OTIF >70%",
+                "attributes": [
+                    {
+                        "desc": "Implement agile project methodologies that accelerate and fail-proof execution while maintaining global quality standards",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Establish project KPIs and CSFs that directly correlate project outcomes with  business objectives",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Lead comprehensive risk management encompassing identification, analysis and correction",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Project Closure & Documentation",
+                "weightage": 15,
+                "assessment": "NPV>80%",
+                "attributes": [
+                    {
+                        "desc": "Ability to Prepare pre commissioning check list and and conduct performance testing",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ability to prepare comprehensive project completion reports",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ensure project performance parameters meet statutory norms and enable adherence by the process team after handover",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Cost Optimization",
+                "weightage": 10,
+                "assessment": "On time and within budget execution",
+                "attributes": [
+                    {
+                        "desc": "Set realistic estimate related to costing of fixed and variable machinery, tools and equipments",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Calculate the return on investment of the project and internal rate of return (IRR)",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Maintain sufficient liquid capital as per the threshold",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Sustainability Integration",
+                "weightage": 10,
+                "assessment": "Sustainability Compliance = 100%",
+                "attributes": [
+                    {
+                        "desc": "Implement energy-efficient designs as per global standards",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Achieve 100% compliance with environmental standards",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Align project parameters to sustainability goals of the organization",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Collaboration and ecosystem building",
+                "weightage": 10,
+                "assessment": "NPS>60%",
+                "attributes": [
+                    {
+                        "desc": "Maintain clear and consistent communication with stakeholders, including clients, team members, vendors, consultants and leadership",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Collaborate with global technology providers and experts for project excellence",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Create a collaborative team environment where members feel empowered to share ideas, provide feedback and support each other.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Project Digitalisation",
+                "weightage": 5,
+                "assessment": "OEE 80%",
+                "attributes": [
+                    {
+                        "desc": "Integrate digital systems with adequate instrumentation and advance controls",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Embed DCS\/QCS operation for all the projects under implementation.",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Create provision for future implementation of Industry 4.0",
+                        "weight": 1
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Automation & Analytics Tools",
+                "weightage": 10,
+                "assessment": "On time and within budget execution",
+                "attributes": [
+                    {
+                        "desc": "Leverage design systems (AutoCAD, SolidWorks) for end to end design and execution of the project",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Leverage planning tools (MS Project, Primavera) for execution excellence",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Leverage analytics (e.g. Power BI) tools for project modeling, risk assessment, proactive decision-making and agility in execution",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Change Control & Risk Management",
+                "weightage": 10,
+                "assessment": "Adherence to complaince and budget",
+                "attributes": [
+                    {
+                        "desc": "Evaluate proposed project scope, schedule, or budget changes, and implement formal change control processes",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Evaluate project processes and performance, identify areas for improvement, and execute changes effectively to enhance project efficiency",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Define quality standards for project deliverables, ensuring they meet stakeholder requirements and industry best practices",
+                        "weight": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "6": {
+        "designation_id": 6,
+        "title": "Role Profile â GLOBAL LEAD",
+        "mission": "Global leadership for Pakka in regenerative food packaging for a cleaner planet",
+        "outcomes": [
+            "500,000 TPY materials replaced with regenerative solutions",
+            "Revenue >$1b PBT >$200m",
+            "Efficacy in  innovations- next gen materials, ZLD and complete waste valorisation",
+            "",
+            ""
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Deep customer and market understanding",
+                "weightage": 10,
+                "assessment": "NPS >50% from key accounts",
+                "attributes": [
+                    {
+                        "desc": "Deep value creation for each partnership",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Direct relationships with leadership for top 10% customers",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Long term partnerships with key accounts",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Operational efficacy",
+                "weightage": 10,
+                "assessment": "OEE >80%",
+                "attributes": [
+                    {
+                        "desc": "Adoption and upgradation of production technology",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Complete input control and instrumentation efficacy",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Establishment of TPM practices across organisation",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Strategic Finance",
+                "weightage": 15,
+                "assessment": "ROCE >25% consistent",
+                "attributes": [
+                    {
+                        "desc": "Ability to raise and deploy capital",
+                        "weight": 6
+                    },
+                    {
+                        "desc": "Strengthen financial monitoring. Ensure governance. Checks and balances.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Deep investor relationships and consistent returns",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Product development",
+                "weightage": 10,
+                "assessment": "NPVI >20%",
+                "attributes": [
+                    {
+                        "desc": "R&D as profit centre",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Customer value creation and adaption of new solutions",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Global collaborations for long term new generation solutions",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Policy and community efficacy",
+                "weightage": 10,
+                "assessment": "Policy changes in favour of compostables each year",
+                "attributes": [
+                    {
+                        "desc": "Deep contribution in education and skills for society",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Partnerships for policy efficacy in key markets",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Industry collaborations and prominence",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Strong team and culture building",
+                "weightage": 10,
+                "assessment": "Team NPS >60%",
+                "attributes": [
+                    {
+                        "desc": "Ability to identify and onboard talent",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Build systems and processes for effective competency based performance management",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Strong leadership and succession development",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Strengthen collaborations",
+                "weightage": 15,
+                "assessment": "Outsourced products quantum",
+                "attributes": [
+                    {
+                        "desc": "Build JV's to outsource products",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Collaborate for product development",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "M&A efficacy for expansion",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Projects efficacy",
+                "weightage": 10,
+                "assessment": "On time and within budget execution",
+                "attributes": [
+                    {
+                        "desc": "Ensure effective on-time and within-budget performance",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Create monitoring and updation mechanisms",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to define project, timelines, budgets, team allocation and boundaries",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Digitisation adoption",
+                "weightage": 10,
+                "assessment": "OTIF >80%",
+                "attributes": [
+                    {
+                        "desc": "Data led decision making at frontline",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Complete transparency and ease of business for customer",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Instant availability of financial data- profitability (date\/ product\/ customer\/ region etc)",
+                        "weight": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "7": {
+        "designation_id": 7,
+        "title": "Role Profile â FINANCE HEAD",
+        "mission": "Build financial strength within organization through fiscal and monetary discipline.",
+        "outcomes": [
+            "Strengthen financial health with Net Debt\/EBITDA â¤ 1.5x and RoCE â¥15%.",
+            "Drive cost optimization initiatives saving â¥ â¹2Cr annually without impairing growth",
+            "Ensure 100% statutory and regulatory compliance, zero audit qualifications",
+            "Enable data-driven financial decision making with real-time dashboards across all SBUs.",
+            "Lead investor relations to secure sustainable capital access and maintain valuation growth at 2x CAGR."
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Ensuring financial freedom for the organisation (Project funding and Working Capital Management at optimum cost)",
+                "weightage": 15,
+                "assessment": "Working Capital cost YOY",
+                "attributes": [
+                    {
+                        "desc": "Understanding of various financial products and using to the benefit of the organisation - cost of Debt , Ease of raising debt and overall finance cost optimisation",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Raising of funds through alternative sources like Equity \/ Quasi Equity and Preferential allotments",
+                        "weight": 6
+                    },
+                    {
+                        "desc": "Understanding of the financial needs of the organisation and raising funds through Debt (Banks, FI's and Impact Investment)",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Investor relation Management \/ Shareholders Relations",
+                "weightage": 10,
+                "assessment": "1. Number of investor complaints resolved\r\n2. NPS > 75",
+                "attributes": [
+                    {
+                        "desc": "Ability to interact with investor and act as a financial mouthpiece of the organisation to the Owners",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Holding of Quarterly Investor calls , results updates and communicating the financial performance and future plan of the organisation to investors and investor groups. Including road shows",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Creating transparency in financial reporting to the shareholders - results , Annual Reports, updates on Exchange and press releases to increase investor awareness and participation",
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Financial Strategies",
+                "weightage": 10,
+                "assessment": "",
+                "attributes": [
+                    {
+                        "desc": "Ability to refine process for preparation of AOP - provide data led indicators for annual and strategic Plan",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to Benchmarking studies and learning across industries for deepening awareness and growth and decision making",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Identify the organisation need for strategic acquisition and mergers , doing financial due diligence and presenting to the Management for further decision making",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Remove redundancy and improve efficiency in financial process. (controls without compromising speed)",
+                "weightage": 10,
+                "assessment": "Closure of points identified in action items within timelines",
+                "attributes": [
+                    {
+                        "desc": "Ensure a well drafted Internal audit coverage programme to cover all areas of business on a cyclical basis .",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to work with Internal Audit teams , convey the requirement properly to the audit team and support to the respective team in implementing the Action point coming from the Internal audit to ensure efficiency improvement",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Work on Action Taken report , represent to the Audit Committee and get their inputs embedded in the audit areas",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Excellence in corporate governance",
+                "weightage": 15,
+                "assessment": "No. of red flags\/reports in complinity =0",
+                "attributes": [
+                    {
+                        "desc": "Ability to understand , train and become a flag bearer of Corporate Governance in the organisation",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ensure compliances to Exchanges , Board , Audit Committee , Ministry of Corporate Affairs in terms of Corporate governance adherence",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ability to frame a Corporate Governance Policy for Management , leaders and organisation which is at least covering all the statutory requirement in terms of corporate governance guidelines laid as per Companies Act",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Excellence in Financial Accounting",
+                "weightage": 10,
+                "assessment": "Timely submission of the monthly MIS",
+                "attributes": [
+                    {
+                        "desc": "Ability to design and implement an efficient , vibrant and accurate financial accounting environment",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Ensuring to bring and implement new technology , automations and tools to ensure accuracy and speed in financial recording and retrieval of information",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Build a team with high skill in each of the sub-areas of financial accounting",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Tax Management",
+                "weightage": 10,
+                "assessment": "No. of red flags\/reports in complinity =0",
+                "attributes": [
+                    {
+                        "desc": "Ensuring all Direct\/ Indirect tax structuring are done correctly to ensure business needs are identified and at the same time the same is tax efficient structure in terms of GST , Custom duty or selection of Direct Tax Mechanism",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Compliance is Key - 0% tolerance to non compliance in tax filing",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Use of tools and software to ensure compliances are done in time - Compliance software",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Understanding of Mergers & Acquisitions",
+                "weightage": 10,
+                "assessment": "% Application of knowledge in M&A",
+                "attributes": [
+                    {
+                        "desc": "Identifying opportunity for M&A and understanding \/ preparing feasibility - keeping in mind the organisational objective and growth strategy",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Participating in Valuations, negotiations and due diligence and supporting the decision making process",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Structuring of the deals and the legal process for Merger",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Ability to build a data led preemptive organization",
+                "weightage": 10,
+                "assessment": "Automation of Dashboards",
+                "attributes": [
+                    {
+                        "desc": "Ability to provide clear decision supporting dashboard for each function.",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Understanding of automation including various softwares\/tools available in the market",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to mitigate identified risks in business through automation\/systems",
+                        "weight": 5
+                    }
+                ]
+            }
+        ]
+    },
+    "8": {
+        "designation_id": 8,
+        "title": "Role Profile â PLANT HEAD",
+        "mission": "Establish Systems for sustainable improvement across Operations to achieve best in class performance.",
+        "outcomes": [
+            "Achieve â¥ 85% Overall Equipment Effectiveness (OEE)  in Paper machines and > 70% in Food Service production lines",
+            "Maintain quality excellence (customer complaints â¤ 0.5% of total sale Qty) .",
+            "Ensure zero major safety incidents; maintain LTIFR at world-class benchmark levels.",
+            "Enable sustainable manufacturing with â¥ 5% reduction in water\/energy footprint by 2027 in similar Products. ",
+            "Develop a high-performance plant culture, Improvement in Productivity per person ratio by 5% YOY. "
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Manufacturing Excellence",
+                "weightage": 15,
+                "assessment": "OEE â¥ 85%( Wrap and Carry), â¥ 70% Food Service",
+                "attributes": [
+                    {
+                        "desc": "Reduce downtime through predictive maintenance.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Ensure continuous process optimization.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Achieve world-class production efficiency with OEE â¥ 85%.( Wrap and Carry)",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Quality Assurance",
+                "weightage": 15,
+                "assessment": "Customer Complaints â¤ 0.5% of Total Sale Qty",
+                "attributes": [
+                    {
+                        "desc": "Implement zero-defect manufacturing systems.",
+                        "weight": 6
+                    },
+                    {
+                        "desc": "Conduct rigorous QA audits and root-cause analysis.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Drive (external\/ internal) supplier quality improvement initiatives.",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Safety & EHS Compliance",
+                "weightage": 10,
+                "assessment": "LTIFR = Pulp and Paper Industry benchmark",
+                "attributes": [
+                    {
+                        "desc": "Maintain zero-fatality, zero-major accident culture.",
+                        "weight": 5
+                    },
+                    {
+                        "desc": "Implement global EHS standards across plant operations.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Engage employees in continuous safety training.",
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Resource Planning and cost efficiency",
+                "weightage": 10,
+                "assessment": "Variable Cost",
+                "attributes": [
+                    {
+                        "desc": "Optimize energy, people, and raw material costs.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Implement Lean\/Six Sigma\/ kaizen to reduce wastage.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Achieve â¥2% YoY productivity gain without major Capex",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Innovation & Technology Adoption",
+                "weightage": 10,
+                "assessment": "Tech Adoption Projects â¥ 5\/yr",
+                "attributes": [
+                    {
+                        "desc": "Pilot new process technologies for efficiency.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Enhance speed-to-market with flexible lines.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Introduce automation and AI-led manufacturing.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Sustainability & Green Operations",
+                "weightage": 10,
+                "assessment": "Sustainability KPI â¥ 30%",
+                "attributes": [
+                    {
+                        "desc": "Reduce energy and water consumption per ton of paper.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Implement circular economy practices.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Targets 30% carbon footprint reduction by 2027.",
+                        "weight": 3
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Stake holder relationships",
+                "weightage": 10,
+                "assessment": "NPS Key Stake Holders>50",
+                "attributes": [
+                    {
+                        "desc": "Creates effective vendor relationships based on enhanced performance",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Develops strong local society connect to enable bonhomie and mutual growth",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Strong industry peer relationships to enable exchange and growth",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "People Capability",
+                "weightage": 10,
+                "assessment": "Productivity per Person â¥ 5% YoY",
+                "attributes": [
+                    {
+                        "desc": "Upskill plant teams in digital operations and safety.",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ensure training gaps are minimized with best in class industrial training",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Improve people productivity through engagement.",
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Effectiveness in building team",
+                "weightage": 10,
+                "assessment": "NPS Internal >50",
+                "attributes": [
+                    {
+                        "desc": "Understand organisation structuring and identification of gaps",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to identify and develop talent",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to build leadership and redundancy within system",
+                        "weight": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "9": {
+        "designation_id": 9,
+        "title": "Role Profile â COMMERCIAL HEAD",
+        "mission": "To ensure cost-effective, timely, and quality procurement by securing long-term raw material partnerships, optimizing supplier networks, and driving strategic sourcing to support efficient production and sustainable growth.",
+        "outcomes": [
+            "Ensure 3.5 Lakh in Ayodhya TPY in RM & MIN 3.5 Lakh in 1 new site",
+            "Built fuel supply chain for min 2 sites for complete captive solutions",
+            "Ensure circularity & value creation from all co products",
+            "Absolute automation centralisation of store to enable AI 50% deduction in Inventory",
+            "Complete system led transparency & consistency leading to preference"
+        ],
+        "skills": [
+            {
+                "sn": 1,
+                "category": "Strong long term vendor relationship",
+                "weightage": 10,
+                "assessment": "% Vendor Retention Rate",
+                "attributes": [
+                    {
+                        "desc": "Ability to ensure creation of competition for optimizing of prices",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ability to ensure regular meeting with key vendors and been present on occasion of value to key vendors",
+                        "weight": 2
+                    },
+                    {
+                        "desc": "Ability to ensure creation of long term mutually beneficial relationship",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 2,
+                "category": "Deep know how of Global supply & demand scenario",
+                "weightage": 5,
+                "assessment": "% Application of Knowledge",
+                "attributes": [
+                    {
+                        "desc": "Strong ability to analyse and interpret global supply-demand dynamics",
+                        "weight": 1
+                    },
+                    {
+                        "desc": "Commodity trend tracking from Pakka perspective",
+                        "weight": 1
+                    },
+                    {
+                        "desc": "Proficient in applying supply demand insights in pricing, procurements",
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "sn": 3,
+                "category": "Quality Awareness",
+                "weightage": 10,
+                "assessment": "# of audits passed\/quality issues prevented",
+                "attributes": [
+                    {
+                        "desc": "Ability identify and set quality check parameters for incoming materials",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Understanding of malpractices during supply",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Ability to ensure the quality of stored material (Fibre\/Fuel\/Other materials) by adoption of best available storage methods",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 4,
+                "category": "Deep know how of digital transformation",
+                "weightage": 5,
+                "assessment": "# of relevant innovations\/processes adapted per year",
+                "attributes": [
+                    {
+                        "desc": "Ability to identify technology requirements and knowledge on interface with operations",
+                        "weight": 1
+                    },
+                    {
+                        "desc": "Understanding of cross industry trends and have the ability to adapt them to business",
+                        "weight": 1
+                    },
+                    {
+                        "desc": "Able to understand IT modules and it's support to functions",
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "sn": 5,
+                "category": "Efficacy in Negotiation",
+                "weightage": 20,
+                "assessment": "Agreement rate (% of negotiations closed)",
+                "attributes": [
+                    {
+                        "desc": "Staying calm under pressure, reading non-verbal cues and adapting to situations",
+                        "weight": 7
+                    },
+                    {
+                        "desc": "Focused on identifying creative solutions that satisfy all the involved parties",
+                        "weight": 7
+                    },
+                    {
+                        "desc": "Skilled in assessing facts, data, and trade-off to create win win outcomes and guide discussions towards agreement",
+                        "weight": 6
+                    }
+                ]
+            },
+            {
+                "sn": 6,
+                "category": "Efficacy in Contract building",
+                "weightage": 15,
+                "assessment": "# of contracts drafted\/reviewed per year",
+                "attributes": [
+                    {
+                        "desc": "Ability to write and read contracts",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Ensuring statutory compliance",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Detailed costing understanding",
+                        "weight": 7
+                    }
+                ]
+            },
+            {
+                "sn": 7,
+                "category": "Ability to research  & identify opportunities for business development",
+                "weightage": 10,
+                "assessment": "# of qualified new opportunities identified\/year",
+                "attributes": [
+                    {
+                        "desc": "Ability to  use research, analytics and insights to evaluate potential opportunities",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Evaluating feasibility, potential ROI and risks before pursuing opportunities",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Translating research findings into actionable business development strategies",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "sn": 8,
+                "category": "Efficacy with Financial and Business analytics",
+                "weightage": 15,
+                "assessment": "% variance between budget (AOP) vs actual outcome",
+                "attributes": [
+                    {
+                        "desc": "Ability to understand and analyse all the financial metrics",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Able to read and interpret balance sheet and P&L",
+                        "weight": 4
+                    },
+                    {
+                        "desc": "Able to draft and create AOP figures, and ability to take result based decisions",
+                        "weight": 7
+                    }
+                ]
+            },
+            {
+                "sn": 9,
+                "category": "Ability to  build business plans & determine ROI",
+                "weightage": 10,
+                "assessment": "# of complete business plans with ROI analysis\/year",
+                "attributes": [
+                    {
+                        "desc": "Ability to conceptualise business expansion plan",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to make expansion project detailed budgeting.",
+                        "weight": 3
+                    },
+                    {
+                        "desc": "Able to calculate Detailed ROI and IRR and payback of the project and take decision",
+                        "weight": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+# Core application gitignore
+database/*.sqlite
+scratch/
+fetched_*.html
+.gemini/
+*.log
